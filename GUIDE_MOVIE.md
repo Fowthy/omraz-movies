@@ -1,5 +1,5 @@
 # SELFLESS — Music Video Production Guide
-## Midjourney V7 Complete Edition with Character Consistency
+## Midjourney V7 | Beksiński Edition | Character Consistency System
 
 ---
 
@@ -7,1354 +7,1564 @@
 
 **"Selfless" = Becoming SELF-LESS (empty, no identity)**
 
-THE SELF is a humanoid being searching for their reflection in an infinite mirror labyrinth. But every mirror shows something wrong — not their face, but glimpses of a red crystalline void. THE OTHER is not a character but the environment itself: a living, breathing red crystalline dimension that watches, waits, and hungers.
+THE SELF is an elongated, androgynous humanoid searching for their reflection in an infinite mirror labyrinth. Cold silver corridors stretch endlessly. But every mirror shows something wrong — not their face, but glimpses of an ochre organic world beyond the glass. THE OTHER is not a character but the environment itself: a living, breathing dimension of flesh-like architecture that watches, waits, and hungers.
 
-Drawn by obsession, THE SELF steps through a mirror and enters this crimson geometric world. At first it's peaceful, beautiful, seductive. But the environment begins to consume them. Their flesh cracks. Crystals grow from their skin. With each verse, the change creeps slowly. With each chorus, it accelerates violently.
+Drawn by obsession, THE SELF steps through a mirror and enters this sepia world of impossible organic architecture. At first it's peaceful, beautiful, seductive — cathedral arches of ribbed tissue, towers of folded flesh, walls textured like stretched membrane. But the environment begins to consume them.
 
-THE SELF explores deeper, hoping to find themselves, but only loses more. The red crystalline environment shifts and morphs constantly — it IS the Other, surrounding them completely, absorbing them piece by piece.
+Their body begins to dissolve. Edges blur and fade. With each verse, the change creeps slowly — becoming translucent, fibrous, losing solidity. With each chorus, it accelerates violently — flesh unraveling into threads, body merging with the organic walls, identity dissolving into the environment.
 
-In the climax, THE SELF finds one final mirror. They look in and see the horror: they have BECOME part of the red crystalline environment. Their old human self is trapped IN the mirror, looking back, screaming silently. The watcher has become the watched. The consumed has become the consumer.
+THE SELF explores deeper, hoping to find themselves, but only loses more. The organic architecture shifts and morphs constantly — it IS the Other, surrounding them completely, absorbing them piece by piece.
 
-Desperate, the now-crystalline being reaches for the mirror, trying to touch their old self. But the strain shatters them. They fragment into a thousand red crystalline shards, scattering into the void. The environment — THE OTHER — absorbs these pieces.
+In the climax, THE SELF finds one final mirror floating in the organic void. They look in and see the horror: they have BECOME a hollow silhouette, a fading outline filled with the environment's texture. Their old solid self is trapped IN the mirror, looking back, mouth open in silent scream. The watcher has become the watched. The consumed has become the consumer.
 
-Final image: the mirror floats alone in the red crystalline void. Inside it, the trapped human SELF presses against the glass forever. The environment pulses. It has won. It has always won.
+Desperate, the now-dissolving being reaches for the mirror, trying to touch their old self. But the strain unravels them completely. They fragment into wisps and threads, scattering into the void. The environment — THE OTHER — absorbs these remnants into its living walls.
+
+Final image: the mirror floats alone in the organic cathedral void. Inside it, the trapped solid SELF presses against the glass forever. The environment pulses with slow breath. It has won. It has always won.
 
 **The message:** When you give yourself completely to another, you don't just lose yourself — you become the thing that consumed you, and your true self becomes a prisoner you can never reach again.
 
 ---
 
+# VISUAL STYLE: ZDZISŁAW BEKSIŃSKI
+
+Every image must embody Beksiński's distinctive aesthetic:
+
+| Element | Application |
+|---------|-------------|
+| **Color palette** | Ochre, sepia, amber, umber, dried blood browns, bone ivory |
+| **Figures** | Elongated, stretched, distorted proportions |
+| **Architecture** | Organic fading structures, impossible perspectives |
+| **Atmosphere** | Dreamlike haze, soft edges, no clear horizon |
+| **Lighting** | Diffuse, no clear source, volumetric fog |
+| **Texture** | Oil painting quality, visible brushwork feel |
+| **Mood** | Melancholic beauty, quiet horror, lonely vastness |
+
+**CRITICAL:** Do NOT mix in other style descriptors (anime, cinematic, etc.). Pure Beksiński throughout.
+
+---
+
+# MIDJOURNEY V7 TIPS & TRICKS
+
+## Parameter Cheat Sheet
+
+| Parameter | Range | Recommended | Effect |
+|-----------|-------|-------------|--------|
+| `--s` (stylize) | 0-1000 | **400-500** | Higher = more artistic/creative, lower = more literal |
+| `--c` (chaos) | 0-100 | **0-10** | Higher = more variation between generations |
+| `--ow` (omni weight) | 0-1000 | **200-300** | Higher = stricter character adherence |
+| `--sw` (style weight) | 0-1000 | **100** | Higher = stronger style reference influence |
+| `--ar` | ratio | **16:9** | Aspect ratio (use 2:3 for portraits, 1:1 for faces) |
+| `--seed` | number | varies | Lock randomness for reproducibility |
+| `--no` | text | varies | Negative prompt (exclude elements) |
+
+## Golden Rules for Consistency
+
+### 1. Create Clean Reference Images First
+- Generate references at **1024px** minimum
+- Use **neutral expressions** (extreme expressions break identity)
+- **Good lighting** - soft, diffuse, no harsh shadows
+- **Simple backgrounds** - let the character be the focus
+
+### 2. Ladder Angles Gradually
+```
+GOOD:  Front → 3/4 view → Mild profile → Hard profile
+BAD:   Front → Hard profile (identity breaks)
+```
+Big angle jumps cause the most consistency failures.
+
+### 3. Change ONE Variable at a Time
+When iterating, only change one thing per generation:
+- Angle OR lighting OR pose — not all three
+- This helps identify what's causing issues
+
+### 4. Save Seeds for Your "Home Base"
+```
+/imagine [prompt] --seed 12345
+```
+Once you get a good result, note the seed. Use it as your baseline for variations.
+
+### 5. Use Vary (Region) for Fixes
+If face is 80% right but nose/eyes drift:
+1. Use **Vary (Region)** in Midjourney
+2. Mask just the problem area
+3. Regenerate without redrawing the whole scene
+
+## Beksiński-Specific Prompt Tips
+
+### Effective Keywords
+```
+Zdzislaw Beksinski style, ochre sepia palette, organic bone architecture,
+dreamlike atmosphere, soft diffuse lighting, oil painting texture,
+melancholic surrealism, impossible perspectives, decaying grandeur
+```
+
+### Enhance the Horror
+- Add: `bone cathedral, ribcage arches, vertebrae columns`
+- Add: `stretched membrane texture, dissolving flesh, hollow fading forms`
+- Add: `foggy haze, no horizon, floating in void`
+
+### Combine with Complementary Artists (Optional)
+For variation, you can occasionally blend:
+- `Beksinski and Giger` — more biomechanical
+- `Beksinski and Frazetta` — more dynamic poses
+- `Beksinski and Moebius` — cleaner lines
+
+**But for this project, keep it PURE Beksiński for consistency.**
+
+## Troubleshooting Common Issues
+
+| Problem | Solution |
+|---------|----------|
+| Character looks different each time | Increase `--ow` to 300-400, use same reference angle |
+| Image too literal/boring | Increase `--s` to 500-600 |
+| Image too chaotic/abstract | Decrease `--s` to 300-400 |
+| Style not matching reference | Increase `--sw` to 150-200 |
+| Artifacts/distortion | Decrease `--ow` to 150-200 |
+| Face drifting | Use Vary (Region) on face only |
+| Figure not recognizable | Keep distinctive posture, add remnant cloth/wrappings |
+
+## Workflow: Draft → Refine
+
+**Step 1: Fast ideation**
+```
+[prompt] --draft --v 7
+```
+Draft mode is 10x faster, half the cost. Use it to test compositions.
+
+**Step 2: Full quality winners**
+Once you like a draft, regenerate without `--draft`:
+```
+[same prompt] --v 7 --s 450
+```
+
+**Step 3: Enhance if needed**
+Use the **Enhance** button on draft jobs to polish them to full quality.
+
+## Prompt Structure Best Practices
+
+### Optimal Order
+```
+[Subject/Action], [Details], [Environment], [Style], [Technical params]
+```
+
+### Example Breakdown
+```
+Elongated humanoid figure standing in bone cathedral,     ← Subject
+pale flesh with visible veins, hunched posture,          ← Details
+vast ribcage arches surrounding, ochre sepia void,       ← Environment
+Zdzislaw Beksinski style, oil painting texture,          ← Style
+dreamlike atmosphere, soft diffuse lighting              ← Mood
+--oref [URL] --ow 250 --sref [URL] --sw 100 --ar 16:9 --v 7 --s 450   ← Params
+```
+
+### Words Matter
+| Instead of | Use |
+|------------|-----|
+| big | enormous, towering, vast, immense |
+| scary | haunting, dreadful, ominous, foreboding |
+| old | ancient, weathered, decayed, timeworn |
+| dark | shadowed, murky, tenebrous, lightless |
+
+Be specific. Vocabulary = better results.
+
+## Seed Strategy for This Project
+
+For maximum consistency across 90 images:
+
+1. **Find a "master seed"** that produces good Beksiński atmosphere
+2. **Use the same seed** for all environment-only shots
+3. **For character shots**, let the seed vary but lock the `--oref`
+4. **Document seeds** for any image you might want to revisit
+
+---
+
 # REFERENCE SYSTEM EXPLAINED
 
-## How Consistency Works in Midjourney V7
+## V7 Reference Parameters
 
-| Parameter | What It Does | Weight Control |
-|-----------|--------------|----------------|
-| `--oref [URL]` | Keeps character/object consistent | `--ow 200` (your choice) |
-| `--sref [URL]` | Keeps visual style/aesthetic consistent | `--sw 100` (default) |
+Midjourney V7 introduced **Omni Reference** (`--oref`) which replaces the V6 Character Reference (`--cref`). Here's what you need to know:
 
-**You can combine both:** `prompt text --oref [char URL] --ow 200 --sref [style URL] --sw 100`
+| Parameter | Version | What It Does | Weight Range | Default |
+|-----------|---------|--------------|--------------|---------|
+| `--oref [URL]` | **V7** | Omni reference - characters, objects, anything | `--ow 0-1000` | 100 |
+| `--sref [URL]` | V6/V7 | Style reference - keeps aesthetic consistent | `--sw 0-1000` | 100 |
+| `--cref [URL]` | V6 only | Character reference (deprecated in V7) | `--cw 0-100` | 100 |
 
-## Reference Image Strategy
+### Recommended Settings for This Project
 
-**THE SELF (Character):** Hybrid approach
-- **ACT 1-2:** Use `SELF-01` (intact human)
-- **ACT 3:** Transition through `SELF-02` → `SELF-03` → `SELF-04`
-- **ACT 4-5:** Use `SELF-04` (crystalline) + `SELF-01` (trapped in mirror)
+| Parameter | Recommended | Why |
+|-----------|-------------|-----|
+| `--ow` | **200-300** | Balanced character consistency without artifacts |
+| `--sw` | **100** | Strong style adherence for Beksiński look |
+| `--s` (stylize) | **400-500** | Sweet spot for artistic quality + prompt accuracy |
+| `--v 7` | Always | Ensures V7 model |
 
-**THE OTHER (Environment Style):** Match intensity to scene
-- **Verses:** Use `OTHER-01` (peaceful) or `OTHER-02` (active)
-- **Choruses:** Use `OTHER-03` (aggressive)
-- **Ending:** Use `OTHER-04` (apocalyptic)
+### Combining References
+
+```
+prompt text --oref [char URL] --ow 250 --sref [style URL] --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+**Important V7 Notes:**
+- `--oref` costs **2x GPU time** compared to regular V7 images
+- Cannot use `--oref` with Draft Mode or `--q 4`
+- Keep `--ow` below 400 to avoid artifacts (unless using high `--s`)
+- You can only use ONE image with `--oref` per prompt
+
+## Reference Strategy Overview (STREAMLINED)
+
+**THE SELF (5 character references — one per dissolution stage)**
+- SELF-01: Intact solid (THE primary character, fully defined)
+- SELF-02: Edges blurring (becoming translucent at edges, softening)
+- SELF-03: Half-dissolved (fibrous texture, threads forming, merging)
+- SELF-04: Hollow silhouette (mostly translucent, environment shows through)
+- SELF-05: Fading remnant (wisps and traces, almost absorbed)
+
+**THE OTHER (4 environment references)**
+- ENV-MIRROR: Cold liminal labyrinth (silver-blue)
+- ENV-PEACEFUL: Peaceful organic world (warm, inviting)
+- ENV-AGGRESSIVE: Aggressive organic world (violent, consuming)
+- ENV-APOCALYPSE: Dissolving environment (unraveling)
+
+**Total: 9 reference images**
 
 ---
 
-# STEP 1: CREATE REFERENCE IMAGES FIRST
+# STEP 1: CREATE CHARACTER REFERENCES (5 images)
 
-Generate these 8 images and save them. You'll use their URLs for all subsequent generations.
-
-## THE SELF — Character References
-
-### SELF-01: Intact/Beginning (Use for ACT 1-2)
-```
-Ethereal humanoid figure with luminous porcelain skin, delicate androgynous features, subtle golden veins visible beneath translucent flesh, warm amber light emanating from chest cavity, wearing tattered flowing white fabric, expression of searching and longing, whole and beautiful and vulnerable, full body standing pose facing camera, pure black void background, clear front-facing view for reference, experimental anime aesthetic, soft volumetric lighting --ar 16:9 --v 7 --s 350
-```
-> **IMPORTANT:** Choose the clearest front-facing result. This is your main character reference.
-
-### SELF-02: Early Deterioration (Use for ACT 3 early)
-```
-Same ethereal humanoid figure with hairline fractures spreading across pale porcelain skin, small red crystalline growths emerging at fingertips and along spine, expression of confusion and dawning fear, warm flesh tones beginning to shift cooler at extremities, golden inner light dimming slightly, same tattered white garments, full body standing pose facing camera, black void background, clear reference view, detailed body horror aesthetic --ar 16:9 --v 7 --s 350
-```
-
-### SELF-03: Mid-Transformation (Use for ACT 3 middle)
-```
-Same humanoid figure now half flesh half red crystal, face splitting between organic features and geometric crimson facets, one eye human with tears one eye ruby crystal, skin peeling away revealing blood-red crystalline structure beneath, body showing significant transformation, warm golden tones invaded by deep crimson, full body pose facing camera, black void background, clear reference view, surreal body horror art --ar 16:9 --v 7 --s 400
-```
-
-### SELF-04: Near-Complete/Crystalline (Use for ACT 3 late, ACT 4-5)
-```
-Same figure almost entirely transformed into red crystalline being, last traces of human face visible beneath faceted ruby surface, humanoid silhouette made of geometric crimson facets, one hand still slightly flesh reaching desperately, deep crimson dominates with dying hints of original golden warmth, full body pose facing camera, pure black void background, clear reference view, beautiful horror aesthetic --ar 16:9 --v 7 --s 400
-```
+Generate these FIRST. One image per dissolution stage. These are your consistency anchors.
 
 ---
 
-## THE OTHER — Environment Style References
+## SELF-01: Intact Solid (PRIMARY CHARACTER)
 
-### OTHER-01: Peaceful/Seductive (Use for verses, early scenes)
-```
-Vast serene red crystalline landscape floating in infinite void, gentle ruby formations drift slowly like frozen music, soft crimson facets glow with warm inner light, geometric shapes shift almost imperceptibly, beautiful and inviting with subtle wrongness, delicate scarlet spires form impossible archways, deep blood-red fading to soft rose at edges, the space feels alive and breathing slowly, surreal crystalline dreamscape, cinematic wide establishing shot, soft ambient lighting, no figures --ar 16:9 --v 7 --s 400
-```
+**This is THE character. Generate multiple times until you love it.**
 
-### OTHER-02: Active/Watching (Use for transitions, tense verses)
 ```
-Infinite red crystalline void where the environment is alive and aware, massive ruby geometric formations shift morph and reconfigure continuously, faceted crimson surfaces seem oriented and watching, deep blood-red with black shadows between formations, crystalline spires grow and dissolve endlessly, no sky no ground only shifting red architecture, alien landscape that breathes and observes, surreal environment, wide shot, volumetric crimson light, no figures --ar 16:9 --v 7 --s 450
-```
-
-### OTHER-03: Aggressive/Consuming (Use for choruses)
-```
-Violent red crystalline dimension in aggressive flux, massive ruby formations thrust upward and collapse rapidly, sharp crimson geometric shapes multiply and swarm, the living environment reaches and grasps hungrily, faceted scarlet surfaces pulse with predatory energy, deep blood-red with harsh black shadows, crystalline chaos surrounds and overwhelms, geometry that devours, apocalyptic surreal horror landscape, dynamic wide shot, harsh dramatic red lighting, no figures --ar 16:9 --v 7 --s 500
-```
-
-### OTHER-04: Apocalyptic/Shattering (Use for ending)
-```
-Cataclysmic red crystalline void in violent collapse, massive ruby formations shatter and explode into infinite fragments, crimson geometric reality tears itself apart in death throes, scarlet shards rain in all directions defying physics, black fissures split through dying red surfaces like wounds, the watching geometry now screaming and dying, total annihilation of crystalline space, deep crimson fading to void black, apocalyptic surreal destruction, extreme wide shot, chaotic harsh lighting, no figures --ar 16:9 --v 7 --s 550
+Elongated androgynous humanoid figure standing in void, unnaturally tall stretched proportions, pale ivory flesh with visible blue veins beneath translucent skin, sunken features neither male nor female, deep shadowed eye sockets with distant sorrowful gaze, arms slightly too long hanging at sides, hunched shoulders curved forward protectively, wearing tattered grey cloth wrappings that hang loosely, clearly defined edges and solid form, Zdzislaw Beksinski style, ochre sepia background, dreamlike atmosphere, soft diffuse lighting, melancholic surrealism, oil painting texture, full body view --ar 2:3 --v 7 --s 450
 ```
 
 ---
 
-# REFERENCE ASSIGNMENT LEGEND
+## SELF-02: Edges Blurring (Beginning Dissolution)
 
-For each image prompt below, the reference box shows:
-- **OREF:** Which character image URL to use with `--oref`
-- **SREF:** Which style image URL to use with `--sref`
-- **Full suffix:** The complete parameter string to add
+```
+Same elongated androgynous humanoid now showing early dissolution, edges of body becoming soft and blurred, flesh taking on slightly translucent quality at extremities, fingertips and edges fading into atmosphere, features softening as if seen through fog, same hunched posture same tattered wrappings now fraying at edges, beginning to lose definition, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture, full body view --ar 2:3 --v 7 --s 450
+```
 
-**Example format:**
+---
+
+## SELF-03: Half-Dissolved (Fibrous Transformation)
+
 ```
-[Your prompt text] --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7
+Same elongated humanoid now significantly dissolved, body becoming fibrous and thread-like in places, flesh unraveling into organic tendrils that drift outward, torso partially translucent showing internal textures like stretched membrane, one arm solid while other dissolves into flowing strands, form dissolving between solid features and dissolving wisps, same distinctive hunched posture, wrappings merging with dissolving form, Zdzislaw Beksinski style, brown ochre amber palette, dreamlike horror, oil painting texture, full body view --ar 2:3 --v 7 --s 500
 ```
+
+---
+
+## SELF-04: Hollow Silhouette (Mostly Dissolved)
+
+```
+Same elongated humanoid now mostly dissolved into hollow form, body a translucent silhouette with environment visible through, only outline and traces of internal structure remaining, flesh become like stretched gauze or membrane, figure like a fading photograph, same hunched posture preserved in ghostly outline, wisps and threads trailing from dissolving edges, Zdzislaw Beksinski style, figure semi-transparent against ochre void, dreamlike dissolution, oil painting texture, full body view --ar 2:3 --v 7 --s 450
+```
+
+---
+
+## SELF-05: Fading Remnant (Almost Absorbed)
+
+```
+Elongated humanoid almost completely dissolved, barely visible outline of figure fragmenting into wisps and floating threads, form scattering into the atmosphere, same distinctive stretched proportions barely recognizable in fading traces, like smoke dispersing, final moments before complete absorption, fragments of former self drifting apart, Zdzislaw Beksinski style, fading figure against sepia darkness, oil painting texture, full body view --ar 2:3 --v 7 --s 450
+```
+
+---
+
+# STEP 2: CREATE ENVIRONMENT REFERENCES (4 images)
+
+---
+
+## ENV-MIRROR: Cold Liminal Labyrinth
+
+**Used for ACT 1 only — the cold world before entering the organic realm.**
+
+```
+Infinite corridor of mirrors stretching in all directions, cold silver-blue metallic surfaces, liminal backrooms aesthetic, impossible geometry, reflections multiplying into darkness, hints of warm ochre organic shapes bleeding through some mirror surfaces, cold clinical space being infected by organic wrongness, Zdzislaw Beksinski style, cold blue-silver palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture, unsettling emptiness, wide establishing shot, no figures --ar 16:9 --v 7 --s 400
+```
+
+---
+
+## ENV-PEACEFUL: Peaceful Organic World
+
+**Used for wonder, seduction, and calm verse moments.**
+
+```
+Vast serene landscape of organic flesh architecture, cathedral-like arches made of stretched membrane and sinew, towers of folded tissue rise in distance, walls textured like living skin, beautiful and inviting despite being made of flesh, gentle curves and organic flow, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture, no figures, wide establishing shot --ar 16:9 --v 7 --s 450
+```
+
+---
+
+## ENV-AGGRESSIVE: Violent Organic World
+
+**Used for choruses and intense transformation moments.**
+
+```
+Organic flesh architecture in violent aggressive motion, membrane-like structures stretching and tearing, tissue towers pulsing and reshaping, organic forms reaching and grasping hungrily, the environment actively consuming, walls of living tissue closing in threatening, aggressive organic movement, threatening alive architecture, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture, no figures, dynamic composition --ar 16:9 --v 7 --s 550
+```
+
+---
+
+## ENV-APOCALYPSE: Dissolving Environment
+
+**Used for final dissolution in ACT 5.**
+
+```
+Organic architecture in catastrophic dissolution, massive flesh structures unraveling into countless threads, wisps and tendrils flying in all directions, the environment destroying itself, tissue tearing apart, membrane arches dissolving, dust of disintegrating matter filling the air, dark umber fading to void black at edges, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture, no figures, extreme dissolution --ar 16:9 --v 7 --s 550
+```
+
+---
+
+# REFERENCE URL TRACKING
+
+After generating each reference image, paste its URL here:
+
+```
+CHARACTER REFERENCES (5 total):
+[ ] SELF-01 (intact solid): https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1
+[ ] SELF-02 (edges blurring): https://www.midjourney.com/jobs/dcf1f9be-66e4-47a1-b223-68f724d3a9ea?index=0&folder=selfless%20v1
+[ ] SELF-03 (half-dissolved): https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1
+[ ] SELF-04 (hollow silhouette): https://www.midjourney.com/jobs/c47b3f33-24a3-4366-943e-c35a9866b4c2?index=0&folder=selfless%20v1
+[ ] SELF-05 (fading remnant): https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1
+
+ENVIRONMENT REFERENCES (4 total):
+[ ] ENV-MIRROR (cold labyrinth): https://www.midjourney.com/jobs/9f588892-6bb1-48ab-b40f-7d69a61e6fec?index=0&folder=selfless%20v1
+[ ] ENV-PEACEFUL (peaceful organic): https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1
+[ ] ENV-AGGRESSIVE (violent organic): https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1
+[ ] ENV-APOCALYPSE (dissolving): https://www.midjourney.com/jobs/f9aa1070-27f1-4915-98b9-feb99001d014?index=0&folder=selfless%20v1
+```
+
+**Total: 9 reference images**
 
 ---
 
 # ACT 1: THE MIRROR LABYRINTH (0:00 - 0:45)
-*Verses — Beautiful, slow dread*
-
-## Scene 1.1: Discovery (0:00 - 0:15) — 4 images
+*14 images — Slow discovery, building unease*
 
 ---
 
-**1.1.1** — Wide establishing
+## Scene 1.1: Discovery (0:00 - 0:18) — 5 images
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | — (mirror environment, not red void yet) |
+**1.1.1** — Wide establishing: figure in labyrinth
+
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-MIRROR |
 
 ```
-Infinite corridor of mirrors stretching in all directions, impossible geometry Escher-like architecture, liminal backrooms quality, cold silver-blue reflective surfaces, pale humanoid figure stands small in center searching, warm golden glow from figure contrasts cold environment, endless reflections multiply into darkness, surreal mirror labyrinth, cinematic wide establishing shot, volumetric fog, eerie stillness --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --ar 16:9 --v 7 --s 350
+Wide establishing shot, elongated humanoid figure stands small in center of infinite mirror corridor, cold silver-blue surfaces stretch in all directions, figure's warm flesh contrasts cold environment, searching posture, reflections multiply into distant darkness, Zdzislaw Beksinski style, liminal atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/9f588892-6bb1-48ab-b40f-7d69a61e6fec?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 350
 ```
 
 ---
 
 **1.1.2** — Figure searching
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | — |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-MIRROR |
 
 ```
-Ethereal humanoid figure with porcelain skin walks through infinite mirror corridor, golden light emanating from chest, expression of longing and searching, looking into each mirror passed, tattered flowing garments drift, warm figure in cold reflective environment, experimental anime aesthetic, medium tracking shot, soft volumetric lighting --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --ar 16:9 --v 7 --s 350
-```
-
----
-
-**1.1.3** — Wrong reflection reveal
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
-
-```
-Humanoid figure stands before ornate mirror, but reflection shows red crystalline void instead of face, crimson geometric shapes where features should be, figure hasn't noticed the wrongness yet, warm flesh meets cold glass meets impossible crimson reflection, surreal horror moment, medium shot over shoulder into mirror, dramatic lighting contrast --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 400
+Medium shot, elongated pale figure walks through mirror corridor, three-quarter view, looking into each mirror passed with searching expression, arm reaching toward reflections, cold blue-silver environment, warm flesh tone figure, Zdzislaw Beksinski style, liminal atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/9f588892-6bb1-48ab-b40f-7d69a61e6fec?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 350
 ```
 
 ---
 
-**1.1.4** — Multiple wrong mirrors
+**1.1.3** — Looking into mirror (normal reflection)
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-MIRROR |
 
 ```
-Wide shot mirror corridor, pale humanoid figure walks between mirrors, every reflection shows glimpses of red crystalline geometry instead of the figure, crimson facets visible in silver frames, figure continues unaware, surrounded by wrongness, liminal horror atmosphere, tracking wide shot, cold blue environment warm golden figure --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 350
+Over-shoulder shot, elongated figure stands before ornate mirror frame, reflection shows their own stretched form correctly, moment of peace, searching for self in reflection, cold corridor behind, Zdzislaw Beksinski style, liminal atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/9f588892-6bb1-48ab-b40f-7d69a61e6fec?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 350
 ```
 
 ---
 
-## Scene 1.2: The Watcher Revealed (0:15 - 0:30) — 4 images
+**1.1.4** — First wrong reflection
+
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-MIRROR |
+
+```
+Close shot of mirror surface, reflection shows NOT the figure but glimpse of ochre organic shapes, organic architecture visible where face should be, warm sepia tones bleeding through cold silver glass, first sign something is wrong, Zdzislaw Beksinski style, dreamlike atmosphere, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/9f588892-6bb1-48ab-b40f-7d69a61e6fec?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
 
 ---
 
-**1.2.1** — Red in the mirrors
+**1.1.5** — Multiple wrong mirrors
 
-| Reference | Image |
-|-----------|-------|
-| OREF | — (no character in frame) |
-| SREF | OTHER-01 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-MIRROR |
 
 ```
-Close-up of ornate mirror frame, reflection filled entirely with shifting red crystalline geometry, ruby facets pulse with inner light, sense of something vast watching through the glass, crimson void behind the surface, no human reflection at all, beautiful and wrong, extreme close-up mirror surface, soft glow from within --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 400
+Wide shot mirror corridor, elongated figure walks between mirrors, every reflection shows glimpses of organic world instead of figure, ochre organic shapes in silver frames, warm sepia bleeding into cold blue environment, Zdzislaw Beksinski style, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/9f588892-6bb1-48ab-b40f-7d69a61e6fec?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
+
+---
+
+## Scene 1.2: The Watcher Revealed (0:18 - 0:32) — 5 images
+
+**1.2.1** — Bone world in mirrors
+
+| OREF | SREF |
+|------|------|
+| — | ENV-PEACEFUL |
+
+```
+Extreme close-up of mirror surface, reflection filled entirely with peaceful organic architecture, fleshy arches and tissue towers visible through glass, ochre sepia warmth inviting through cold silver frame, sense of vast world beyond, beautiful wrongness, Zdzislaw Beksinski style, dreamlike atmosphere, oil painting texture, no figure visible --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
 **1.2.2** — Figure notices
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-MIRROR |
 
 ```
-Humanoid figure stops before mirror, expression shifting to confusion, hand raised toward reflection that shows red crystalline void instead of hand, first moment of awareness something is wrong, warm golden figure against cold silver mirror containing crimson geometry, medium shot, dramatic rim lighting --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 350
-```
-
----
-
-**1.2.3** — Surrounded
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-02 |
-
-```
-Wide overhead shot, pale humanoid figure stands at center of circular mirror chamber, every mirror surface filled with red crystalline void watching, figure small and alone surrounded by crimson geometric reflections, trapped in observation, beautiful horror composition, crane shot looking down, volumetric light --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
+Close-up elongated face, expression shifting from searching to confusion, eyes focused on mirror surface showing wrong reflection, first moment of awareness, beginning of fear, pale features lit by warm ochre glow from mirror, Zdzislaw Beksinski style, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/9f588892-6bb1-48ab-b40f-7d69a61e6fec?index=0&folder=selfless%20v1 --sw 100 --ar 1:1 --v 7 --s 400
 ```
 
 ---
 
-**1.2.4** — The invitation
+**1.2.3** — Surrounded by watching
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
-
-```
-Single mirror glows with soft warm red light, inviting rather than threatening, beautiful crimson crystalline vista visible through the glass like a doorway, peaceful ruby landscape beckoning, figure drawn toward it hand reaching, seductive trap revealed, medium shot figure approaching glowing mirror, warm red light on face --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 350
-```
-
----
-
-## Scene 1.3: Drawn Closer (0:30 - 0:45) — 4 images
-
----
-
-**1.3.1** — Approaching the threshold
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-MIRROR |
 
 ```
-Humanoid figure walks toward largest mirror, red crystalline landscape visible through glass like window to another world, peaceful ruby geometry inviting exploration, figure's golden chest light reflects off mirror surface, approaching point of no return, cinematic medium shot, building tension, warm meeting cold meeting red --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 350
+Overhead wide shot, elongated figure stands at center of circular mirror chamber, every mirror surface filled with ochre organic world watching, figure small and alone surrounded by organic glimpses, trapped in observation, warm sepia pressing in from all sides, Zdzislaw Beksinski style, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/9f588892-6bb1-48ab-b40f-7d69a61e6fec?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**1.3.2** — Hand on glass
+**1.2.4** — The inviting mirror
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Extreme close-up, pale luminous hand presses against mirror surface, glass ripples like water at touch, red crystalline void visible through distorting surface, moment before crossing, flesh meeting barrier to other world, intimate detail shot, soft focus background sharp focus on hand and rippling glass --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 300
+Medium shot, single large mirror glows with warm ochre light, beautiful peaceful organic landscape visible through glass like doorway, inviting seductive warmth, elongated figure drawn toward it hand reaching, seduction beginning, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**1.3.3** — Mirror yields
+**1.2.5** — Approaching threshold
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Medium shot, humanoid figure's hand sinks INTO mirror surface, glass wraps around wrist like liquid silver, arm entering red crystalline dimension beyond, expression of wonder mixed with fear, crossing the threshold beginning, surreal body horror moment, dramatic side lighting --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 400
+Medium tracking shot, elongated figure walks toward glowing mirror portal, organic world clearly visible through glass, warm ochre light illuminating pale flesh, leaving cold silver corridor behind, approaching point of no return, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
+
+---
+
+## Scene 1.3: The Crossing (0:32 - 0:45) — 4 images
+
+**1.3.1** — Hand touches glass
+
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
+
+```
+Extreme close-up, pale elongated hand presses against mirror surface, glass ripples like liquid at touch, organic world visible through distorting surface, moment before crossing, flesh meeting barrier to other world, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
+
+---
+
+**1.3.2** — Passing through
+
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
+
+```
+Medium shot, elongated figure passes through mirror surface, body stretched and distorted by liquid glass transition, half in cold corridor half in warm organic world, mirror wrapping around form like membrane, crossing between worlds, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**1.3.3** — Emerging into bone world
+
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
+
+```
+Wide shot, elongated figure stumbles through into vast organic cathedral space, emerging from mirror that hangs in void behind, first steps into flesh architecture world, membrane arches tower above, tissue columns rise in distance, ochre sepia warmth surrounds, Zdzislaw Beksinski style, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
 **1.3.4** — Last look back
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Over-shoulder shot from behind figure half-through mirror, looking back at normal mirror corridor one last time, face illuminated by red light from world ahead, leaving reality behind, point of no return, liminal transition moment, cinematic composition, warm figure cold corridor red destination --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 350
-```
-
----
-
-# ACT 2: STEPPING THROUGH (0:45 - 1:00)
-*Transition — Building tension*
-
-## Scene 2.1: The Crossing (0:45 - 0:55) — 5 images
-
----
-
-**2.1.1** — Through the mirror
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
-
-```
-Humanoid figure passes through mirror surface, body stretched and distorted by liquid glass transition, half in normal space half in red crystalline void, mirror wrapping around form like membrane, surreal crossing between worlds, beautiful body distortion, medium shot, dramatic contrast between blue-silver and crimson worlds --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 450
+Over-shoulder shot from behind figure in profile, looking back at mirror doorway showing cold corridor beyond, face lit by warm ochre from organic world ahead, leaving reality behind, point of no return, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**2.1.2** — Emergence
+# ACT 2: SEDUCTION (0:45 - 1:10)
+*10 images — Wonder, beauty, the trap forming*
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
+---
+
+## Scene 2.1: First Wonder (0:45 - 0:55) — 5 images
+
+**2.1.1** — POV: First view of bone world
+
+| OREF | SREF |
+|------|------|
+| — | ENV-PEACEFUL |
 
 ```
-Figure stumbles through into red crystalline dimension, emerging from mirror surface that hangs in void behind them, first steps into new world, vast ruby geometric landscape stretches infinitely, disoriented pose, warm figure entering crimson environment, wide shot showing scale of new world, volumetric red light --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 400
+POV first-person perspective seeing organic world for first time, gentle cathedral arches of stretched membrane rise in soft ochre light, tissue towers in serene distance, beautiful organic architecture inviting exploration, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture, no figure visible --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-**2.1.3** — First view (POV)
+**2.1.2** — Wonder on face
 
-| Reference | Image |
-|-----------|-------|
-| OREF | — (POV shot, no character visible) |
-| SREF | OTHER-01 |
-
-```
-POV first-person perspective seeing red crystalline world for first time, gentle ruby formations floating peacefully, soft crimson light, beautiful and inviting vista, geometric shapes drift slowly, serene alien landscape, immersive wide angle, warm soft lighting --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 400
-```
-
----
-
-**2.1.4** — Wonder
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Medium shot, humanoid figure stands in red crystalline void looking around with wonder, expression of awe at alien beauty, soft ruby light illuminates porcelain skin, golden chest glow reflects off nearby crimson facets, peaceful moment before horror, experimental anime aesthetic, soft volumetric lighting --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 350
+Close-up elongated face looking around with wonder, expression of awe at alien beauty, pale features warmly lit by ochre ambient light, wide eyes taking in impossible architecture, first moments of enchantment, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 1:1 --v 7 --s 400
 ```
 
 ---
 
-**2.1.5** — The mirror behind
+**2.1.3** — Exploring the cathedral
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
-
-```
-Wide shot, figure small in vast red crystalline landscape, single mirror floating behind them showing normal world beyond, doorway still open, ruby geometric formations surround peacefully, establishing new environment, cinematic composition, contrasting worlds visible --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 400
-```
-
----
-
-## Scene 2.2: Seduction (0:55 - 1:00) — 3 images
-
----
-
-**2.2.1** — Exploring
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-01 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Humanoid figure walks through peaceful red crystalline environment, touching floating ruby formations with curiosity, soft crimson glow responds to touch, gentle interaction with alien world, beautiful and serene, figure trusting the environment, medium tracking shot, warm soft red lighting --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 350
+Medium tracking shot, elongated figure walks through vast organic cathedral space, reaching up to touch membrane arch overhead, dwarfed by flesh architecture, ochre light filtering through tissue structures, gentle exploration, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-**2.2.2** — Environment responds
+**2.1.4** — Touching bone architecture
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-02 |
-
-```
-Red crystalline formations shift and morph gently around humanoid figure, ruby geometry forming beautiful patterns, welcoming display, the environment actively engaging with visitor, seductive alien beauty, figure enchanted, wide shot showing surrounding movement, soft pulsing crimson light --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
-```
-
----
-
-**2.2.3** — The trap closes
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-02 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Wide establishing shot, humanoid figure now deep within red crystalline void, mirror doorway tiny and distant behind, surrounded completely by ruby geometry, beautiful prison forming, figure doesn't realize the trap yet, vast crimson landscape, cinematic wide shot, ominous beauty --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
+Close shot, pale elongated hand touching surface of organic wall, texture like stretched membrane and sinew, organic warmth beneath fingertips, intimate contact with environment, flesh meeting flesh architecture, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-# ACT 3: TRANSFORMATION (1:00 - 2:30)
-*Alternating Verses (slow) and Choruses (fast)*
+**2.1.5** — Figure small in vastness
 
-## Scene 3.1: First Changes — VERSE (1:00 - 1:20) — 5 images
-
----
-
-**3.1.1** — Subtle wrongness
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-02 |
-| SREF | OTHER-01 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Medium shot, humanoid figure examining their hand, tiny hairline crack visible on knuckle, first sign of change barely noticeable, confusion on face, red crystalline environment peaceful in background, the transformation begins invisibly, intimate character moment, soft red ambient lighting --oref https://www.midjourney.com/jobs/f635f459-9a5c-452e-894f-28b1201814eb?index=0 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 350
+Extreme wide shot, elongated figure stands tiny in center of enormous organic cathedral chamber, membrane arches soar overhead, tissue columns surround, scale emphasizes vulnerability, peaceful immensity, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-**3.1.2** — Cracks spreading
+## Scene 2.2: The Trap Forms (0:55 - 1:10) — 5 images
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-02 |
-| SREF | OTHER-01 |
+**2.2.1** — Environment responds to presence
 
-```
-Close-up forearm and hand, more cracks visible spreading like frost on glass, small red crystalline facet emerging at fingertip, figure touching the change with other hand, dawning horror, warm flesh becoming cold crystal, detailed body horror beginning, extreme close-up, dramatic lighting --oref https://www.midjourney.com/jobs/f635f459-9a5c-452e-894f-28b1201814eb?index=0 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 400
-```
-
----
-
-**3.1.3** — Environment watching
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-02 |
-| SREF | OTHER-02 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Wide shot, red crystalline formations have shifted subtly, seem oriented toward humanoid figure, geometry watching without eyes, figure small and vulnerable in center, the environment is aware and interested, vast ruby landscape, sense of being observed, cinematic wide shot, volumetric crimson light --oref https://www.midjourney.com/jobs/f635f459-9a5c-452e-894f-28b1201814eb?index=0 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
+Medium wide shot, organic architecture subtly shifts around elongated figure, flesh structures seeming to orient toward the visitor, gentle movement in peripheral vision, the environment becoming aware, watching beginning, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-**3.1.4** — Searching for help
+**2.2.2** — Beauty deepens
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-02 |
-| SREF | OTHER-01 |
-
-```
-Medium shot, figure looking around desperately, more cracks visible on neck and shoulder, searching for escape or cure, red crystalline environment offers no comfort, isolation in alien beauty, expression of growing fear, experimental anime aesthetic, cold red lighting on warm flesh --oref https://www.midjourney.com/jobs/f635f459-9a5c-452e-894f-28b1201814eb?index=0 --ow 200 --sref https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2 --sw 100 --ar 16:9 --v 7 --s 350
-```
-
----
-
-**3.1.5** — The change continues
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-02 |
-| SREF | OTHER-02 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Medium shot, humanoid figure standing still as change spreads, red crystalline growths now visible along spine through torn garment, accepting what cannot be stopped, resigned horror, ruby facets catch light, warm figure being consumed by cold crystal, Beksinski surrealism, dramatic rim lighting --oref https://www.midjourney.com/jobs/f635f459-9a5c-452e-894f-28b1201814eb?index=0 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
+Medium shot, elongated figure reaches toward beautiful organic formation, flesh shape like frozen music, seductive architecture inviting touch, deeper enchantment, the trap beautiful, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-## Scene 3.2: First Acceleration — CHORUS (1:20 - 1:35) — 8 images
+**2.2.3** — Mirror doorway now distant
 
----
-
-**3.2.1** — Violent eruption
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Medium shot CHAOS, red crystalline growths ERUPT from humanoid figure's back and shoulders, violent rapid transformation, body arches in agony, ruby shards burst through flesh, the change accelerates horrifically, body horror at maximum, dynamic pose, harsh dramatic crimson lighting, motion blur --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
+Wide shot, elongated figure in profile has wandered deep into organic world, mirror doorway now tiny and distant behind, surrounded by flesh architecture, path back unclear, gentle trap closing, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**3.2.2** — Skin crystallizing
+**2.2.4** — Environment closes around
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-03 |
-
-```
-Extreme close-up, flesh transforms to red faceted crystal in spreading wave, skin texture becoming geometric, organic to mineral transition visible, horrific beautiful detail, body horror transformation, macro detail shot, harsh lighting showing texture change --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**3.2.3** — Environment responds
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Wide shot, red crystalline environment shifts aggressively, massive ruby formations thrust and multiply, responding to figure's transformation, geometry excited by consumption, violent alien landscape, figure writhes in center, chaotic dynamic composition, harsh pulsing crimson light --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 550
+Medium shot, organic structures have shifted closer around elongated figure, flesh walls now nearer, space tightening subtly, beautiful prison forming, figure doesn't notice yet, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-**3.2.4** — Face splitting
+**2.2.5** — Trapped in beauty
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Close-up face, features splitting between flesh and red crystal, one eye human with tear one eye faceted ruby, mouth open in silent scream showing crystalline teeth, identity fracturing, intimate body horror, extreme close-up, harsh contrast lighting --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
+Wide establishing shot, elongated figure now completely surrounded by organic architecture, no clear exit visible, beautiful flesh prison complete, mirror doorway lost, gentle horror of realization coming, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+# ACT 3: TRANSFORMATION (1:10 - 2:30)
+*45 images — Alternating slow verses and violent choruses*
+
+---
+
+## Scene 3.1: First Changes — VERSE (1:10 - 1:25) — 6 images
+
+**3.1.1** — Something feels wrong
+
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
+
+```
+Medium shot, elongated figure pauses, expression shifting to unease, something feels wrong but cannot identify what, hand touching own arm uncertainly, first stirring of dread, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
+
+---
+
+**3.1.2** — Examining hand — first sign
+
+| OREF | SREF |
+|------|------|
+| SELF-02 | ENV-PEACEFUL |
+
+```
+Extreme close-up of elongated hand, edges beginning to blur and soften, fingertips becoming slightly translucent, first visible sign of dissolution, subtle wrongness in familiar flesh, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/dcf1f9be-66e4-47a1-b223-68f724d3a9ea?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**3.1.3** — Confusion and denial
+
+| OREF | SREF |
+|------|------|
+| SELF-02 | ENV-PEACEFUL |
+
+```
+Medium shot, elongated figure examines own arms and body, expression of confusion, edges visibly blurring now, early dissolution showing, trying to understand what is happening, denial mixing with dawning fear, Zdzislaw Beksinski style, ochre sepia palette, dreamlike horror, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/dcf1f9be-66e4-47a1-b223-68f724d3a9ea?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
+
+---
+
+**3.1.4** — Environment watches
+
+| OREF | SREF |
+|------|------|
+| SELF-02 | ENV-PEACEFUL |
+
+```
+Wide shot, organic flesh architecture has shifted again, membrane structures clearly oriented toward figure, watching the change begin, environment aware and interested, hollow cavities in walls watching, figure small and dissolving in center, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/dcf1f9be-66e4-47a1-b223-68f724d3a9ea?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**3.1.5** — Dissolution visible
+
+| OREF | SREF |
+|------|------|
+| SELF-02 | ENV-PEACEFUL |
+
+```
+Medium close shot, elongated figure's face and arms showing clear early dissolution, edges softening and blurring, translucency spreading from extremities, features losing sharp definition, slow dissolution progressing, Zdzislaw Beksinski style, ochre sepia palette, dreamlike horror, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/dcf1f9be-66e4-47a1-b223-68f724d3a9ea?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**3.1.6** — Searching for escape
+
+| OREF | SREF |
+|------|------|
+| SELF-02 | ENV-PEACEFUL |
+
+```
+Medium tracking shot, dissolving elongated figure stumbles through organic flesh architecture searching for way out, edges blurring and fading, desperate exploration, organic walls shift blocking paths, no escape visible, Zdzislaw Beksinski style, ochre sepia palette, dreamlike horror, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/dcf1f9be-66e4-47a1-b223-68f724d3a9ea?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
+
+---
+
+## Scene 3.2: First Acceleration — CHORUS (1:25 - 1:40) — 10 images
+
+**3.2.1** — Violent dissolution surge
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
+
+```
+Medium shot INTENSE, transformation suddenly accelerates, form dissolving and unraveling rapidly, elongated figure arching in pain, violent dissolution surge, body horror intensifying, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+**3.2.2** — Form unraveling
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
+
+```
+Extreme close-up torso, form unraveling into fibrous threads, flesh splitting and dissolving, becoming translucent with environment visible through gaps, violent dissolution, detailed body horror, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+**3.2.3** — Environment responds aggressively
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
+
+```
+Wide shot, organic architecture in aggressive motion around transforming figure, flesh structures thrusting and reaching, environment excited by consumption, violent tissue landscape, figure writhing in center, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 550
+```
+
+---
+
+**3.2.4** — Form dissolving
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
+
+```
+Close-up face, features dissolving and becoming translucent, one eye fading, other becoming hollow, form unraveling from fading face, identity fracturing, intimate transformation horror, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 1:1 --v 7 --s 500
 ```
 
 ---
 
 **3.2.5** — Arms transforming
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
 
 ```
-Medium shot, both arms now heavily crystallized, red geometric growths overtaking flesh, hands becoming angular and faceted, reaching desperately at nothing, beautiful horrible transformation, body horror art, dynamic angle, volumetric red light --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**3.2.6** — Fragmentation begins
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-03 |
-
-```
-Wide shot, pieces of humanoid figure beginning to break away as floating crystalline shards, body fragmenting while transforming, red geometric pieces orbit the form, dissolution and consumption, surreal body horror, chaotic composition, harsh dramatic lighting --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 550
+Medium shot, both arms heavily transformed, flesh dissolving into translucent threads and wisps, hands fading into nothing, reaching desperately at emptiness, violent change spreading through limbs, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-**3.2.7** — Environment consuming
+**3.2.6** — Pieces falling away
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-03 |
-
-```
-Medium shot, red crystalline formations reaching toward transforming figure, ruby geometry actively taking pieces, consumption visible and aggressive, the Other feeding, alien horror landscape devouring, dynamic threatening composition, harsh crimson lighting --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**3.2.8** — Moment of stillness
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
 
 ```
-Wide shot, figure frozen mid-transformation, half flesh half red crystal, surrounded by aggressive ruby geometry, pause in chaos, eye of the storm, horrific beautiful tableau, calm before next wave, cinematic wide shot, dramatic red lighting --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 450
+Wide shot, threads and wisps breaking away from elongated figure, floating like smoke, body fragmenting while transforming, dissolution accelerating, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-## Scene 3.3: False Hope — VERSE (1:35 - 1:50) — 4 images
+**3.2.7** — Environment consuming flesh
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
+
+```
+Medium shot, fallen pieces of flesh being absorbed by organic floor, architecture consuming the shed parts, feeding on transformation debris, ground incorporating flesh into tissue structure, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
 
 ---
+
+**3.2.8** — Spine exposed
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
+
+```
+Close shot from behind, form dissolving into threads visible through translucent back, body becoming transparent merging with environment, figure becoming architecture, intimate horror detail, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+**3.2.9** — Figure collapsing
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
+
+```
+Medium shot, half-dissolved figure collapsing to knees, overwhelmed by violent change, body failing mid-transformation, reaching out for support finding none, dramatic fall, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**3.2.10** — Moment of stillness
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
+
+```
+Wide shot, half-dissolved figure frozen on knees, eye of the storm pause, aggressive environment suspended around, horrific tableau before verse slows things, calm before continuation, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+## Scene 3.3: False Hope — VERSE (1:40 - 1:55) — 6 images
 
 **3.3.1** — Transformation pauses
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-02 |
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-PEACEFUL |
 
 ```
-Medium shot, humanoid figure now half crystallized, red facets covering half the body, but transformation has slowed, moment of relief, examining changed form with horror and acceptance, ruby and flesh coexist, Tekkonkinkreet aesthetic, soft ambient red lighting --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
-```
-
----
-
-**3.3.2** — Searching for mirror
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-02 |
-
-```
-Wide shot, half-transformed figure stumbling through red crystalline void, searching for mirror doorway to escape, ruby environment peaceful again deceptively, desperate quest, vast alien landscape, figure small and determined, cinematic tracking shot, soft crimson lighting --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 350
+Medium shot, half-transformed elongated figure, transformation has slowed, moment of relief, examining own hybrid form with horror and acceptance, dissolving and solid coexist, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**3.3.3** — Environment shifts
+**3.3.2** — Examining changed body
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-02 |
-
-```
-Medium shot, red crystalline formations have rearranged, blocking path to distant mirror, ruby geometry deliberately obstructing, figure realizes escape is prevented, the environment toys with them, vast crimson walls of crystal, trapped revelation, dramatic wide shot --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
-```
-
----
-
-**3.3.4** — Finding another mirror
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-02 |
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-PEACEFUL |
 
 ```
-Medium shot, half-transformed figure discovers mirror embedded in red crystalline wall, hope resurging, rushing toward it, reflection still shows their partly-human form, potential escape visible, dramatic moment, warm lighting from mirror cold red surrounding --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 350
+Close shot, half-solid half-translucent hand held before face, fingers partially dissolved into threads, figure studying what they're becoming, intimate moment with transformation, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-## Scene 3.4: Second Acceleration — CHORUS (1:50 - 2:05) — 8 images
+**3.3.3** — Standing, searching again
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-PEACEFUL |
+
+```
+Medium shot, half-dissolved figure rises and begins moving again, searching for escape or cure, stubborn survival instinct, moving through watching organic architecture, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
 
 ---
+
+**3.3.4** — Environment blocks paths
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-PEACEFUL |
+
+```
+Wide shot, organic structures have shifted to block all exits, flesh walls now impassable, figure realizes escape is impossible, prison revealed, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
+
+---
+
+**3.3.5** — Finds embedded mirror
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-PEACEFUL |
+
+```
+Medium shot, half-dissolved figure discovers mirror embedded in organic wall, hope resurging, cold silver surface in warm flesh architecture, potential escape visible, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
+
+---
+
+**3.3.6** — Rushing toward mirror
+
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-PEACEFUL |
+
+```
+Medium tracking shot, half-dissolved figure rushes toward embedded mirror, desperate movement, hope driving broken body forward, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
+
+---
+
+## Scene 3.4: Second Acceleration — CHORUS (1:55 - 2:10) — 10 images
 
 **3.4.1** — Reaching for mirror
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-03 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
 
 ```
-Medium shot, half-crystallized figure reaches toward embedded mirror, but red crystal ERUPTS up arm toward hand, transformation surging to prevent escape, body horror intensifying, desperate reaching, dramatic reaching pose, harsh crimson lighting --oref https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**3.4.2** — Transformation explosion
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
-
-```
-Close-up torso, massive crystallization surge, flesh rapidly becoming red geometric facets, internal structure becoming visible as ruby crystal, violent transformation wave, body horror maximum, extreme detail shot, harsh dramatic lighting --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 550
+Medium shot, half-dissolved figure reaches toward mirror but transformation SURGES, dissolution racing up arms toward reaching hand, body betraying escape attempt, violent prevention, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-**3.4.3** — Losing human form
+**3.4.2** — Massive transformation surge
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
-
-```
-Medium shot, figure's body now mostly red crystalline, human elements retreating rapidly, original form barely visible, identity almost gone, tragic transformation, Beksinski body horror, dynamic pose of anguish, volumetric red light --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**3.4.4** — Environment in frenzy
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-04 | ENV-AGGRESSIVE |
 
 ```
-Wide shot, red crystalline void in aggressive motion, ruby formations multiplying rapidly, swirling around transforming figure, feeding frenzy of geometry, apocalyptic alien landscape, maximum chaos, extreme wide shot, harsh pulsing crimson light --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 550
+Medium shot, elongated figure nearly entirely dissolved now, violent transformation surge stripped most remaining solidity, hollow silhouette emerging rapidly, only traces of fading form at edges, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/c47b3f33-24a3-4366-943e-c35a9866b4c2?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-**3.4.5** — Face consumed
+**3.4.3** — Flesh ripping away
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
-
-```
-Extreme close-up, last human eye visible amid red crystalline face, tear falling from human eye, crystal growing over it, final moments of identity visible, intimate horror detail, macro close-up, soft focus on tear sharp on crystal growth --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**3.4.6** — Final human trace
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-03 | ENV-AGGRESSIVE |
 
 ```
-Close-up hand, single finger still flesh reaching toward mirror, rest of hand red crystal, last human element, desperate reaching, beautiful tragic detail, intimate body horror, extreme close-up, dramatic contrast lighting --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 450
+Extreme close-up, last solid pieces of form tearing away into threads, flesh ripping apart into dissolving wisps, final unraveling, detailed transformation climax, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/537bbea7-19a1-4e6e-8bfc-f52d487f4dcb?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-**3.4.7** — Complete transformation
+**3.4.4** — Silhouette forming
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
-
-```
-Medium shot, figure now entirely red crystalline, humanoid shape made of ruby geometric facets, no flesh remains, new form stands where human was, identity completely consumed, beautiful horrible completion, full body shot, volumetric crimson light --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**3.4.8** — New being
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-04 | ENV-AGGRESSIVE |
 
 ```
-Wide shot, red crystalline humanoid stands in ruby geometric void, indistinguishable from environment, became what consumed them, part of the Other now, vast crimson landscape and figure as one, cinematic wide shot, ambient red glow --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 450
+Wide shot, elongated dissolving form now dominant, recognizable hunched posture preserved as hollow silhouette, wisps of former self still trailing, environment frenzy around, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/c47b3f33-24a3-4366-943e-c35a9866b4c2?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-## Scene 3.5: What Remains — VERSE (2:05 - 2:20) — 4 images
+**3.4.5** — Environment consuming all flesh
 
----
-
-**3.5.1** — Examining new form
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-02 |
+| OREF | SREF |
+|------|------|
+| SELF-04 | ENV-AGGRESSIVE |
 
 ```
-Medium shot, red crystalline being examines own faceted hands, trying to understand what they've become, ruby geometry where flesh was, alien to themselves, quiet horror of completion, soft red ambient lighting, experimental anime aesthetic --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
+Wide shot, organic architecture aggressively absorbing all shed flesh pieces, walls growing with incorporated material, feeding complete, dissolving figure in center of consumption frenzy, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/c47b3f33-24a3-4366-943e-c35a9866b4c2?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 550
 ```
 
 ---
 
-**3.5.2** — Memory of flesh
+**3.4.6** — Last flesh trace
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-02 |
-
-```
-Close-up crystalline face, faceted ruby features trying to form human expression, ghost of former self visible in geometry, identity struggling within crystal prison, haunting detail, intimate portrait of loss, soft volumetric red light --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
-```
-
----
-
-**3.5.3** — Part of the environment
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-02 |
+| OREF | SREF |
+|------|------|
+| SELF-04 | ENV-AGGRESSIVE |
 
 ```
-Wide shot, red crystalline being walks through ruby void, movement matching the environment's rhythm, becoming one with the Other, assimilation visible, figure and landscape harmonizing, vast crimson geometric space, cinematic wide shot, ambient red glow --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
+Extreme close-up, last solid patch on fading translucent hand, final human trace about to dissolve away, moment before completion, intimate final detail, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, oil painting texture --oref https://www.midjourney.com/jobs/c47b3f33-24a3-4366-943e-c35a9866b4c2?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-**3.5.4** — The final mirror
+**3.4.7** — Complete dissolving figure stands
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-02 |
-
-```
-Medium shot, red crystalline being discovers ornate mirror floating in void, different from others, special, drawn toward it with purpose, approaching revelation, dramatic lighting from mirror surface, anticipation building --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 350
-```
-
----
-
-## Scene 3.6: Third Acceleration — CHORUS (2:20 - 2:30) — 6 images
-
----
-
-**3.6.1** — Approaching truth
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
 
 ```
-Medium shot, red crystalline being approaches final mirror rapidly, environment pulsing with energy, moment of revelation imminent, ruby figure against reflective surface, dramatic movement toward truth, harsh crimson lighting --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
+Medium shot, transformation complete, elongated dissolving figure stands where flesh being was, hollow dissolving form with same distinctive posture, identity consumed, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-**3.6.2** — Environment responds
+**3.4.8** — Dissolving figure merges with environment
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
-
-```
-Wide shot, entire red crystalline void shifts toward the mirror, ruby geometry orienting to witness, massive environmental change, the Other watching through itself, vast crimson landscape in motion, chaotic dynamic composition --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 550
-```
-
----
-
-**3.6.3** — Looking in
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
 
 ```
-Over-shoulder shot, red crystalline being looks into mirror, reflection not yet revealed to viewer, figure sees something shocking, body language of horror, dramatic moment before reveal, tense composition, harsh lighting contrast --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 450
+Wide shot, dissolving figure now indistinguishable in color and texture from organic architecture surrounding, became what consumed them, part of the Other, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-**3.6.4** — The truth
+**3.4.9** — New being stands
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-03 |
-
-> **IMPORTANT:** This shows the ORIGINAL human self trapped IN the mirror!
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
 
 ```
-Close-up mirror surface, reflection shows ORIGINAL HUMANOID SELF trapped INSIDE the mirror, flesh and blood human form with porcelain skin and golden chest glow pressed against glass from within, screaming silently, warm human trapped in cold reflection, the transformation revealed as exchange, horrific revelation, extreme close-up of mirror --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
+Wide establishing shot, hollow dissolving being stands in vast organic cathedral, architecture and figure now matching, ochre palette unified, transformation complete, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-**3.6.5** — Reversal revealed
+**3.4.10** — Environment settles
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
-
-> **NOTE:** This shows BOTH - crystalline being outside, human trapped inside. Generate separately if needed.
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-PEACEFUL |
 
 ```
-Wide shot showing both: red crystalline being standing OUTSIDE mirror looking in, original warm human self visible trapped INSIDE mirror reaching out, roles reversed, outside became inside, watcher became watched, devastating composition, harsh dramatic lighting, split between crimson and warm gold --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
+Wide shot, aggressive environment calming after feeding frenzy, organic architecture settling into new configuration, dissolving figure standing still amid quieting flesh structures, aftermath of consumption, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**3.6.6** — Mutual horror
+## Scene 3.5: What Remains — VERSE (2:10 - 2:20) — 5 images
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+**3.5.1** — Dissolving figure examines self
 
-```
-Split composition, red crystalline being on left reaching toward mirror in horror, trapped human self visible in mirror on right reaching back from inside, both in anguish, same gesture opposite sides of glass, symmetric tragedy, dramatic contrasting light warm and cold --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-# ACT 4: THE REALIZATION (2:30 - 3:00)
-*Peak horror — Maximum intensity*
-
-## Scene 4.1: Trapped Self (2:30 - 2:45) — 8 images
-
----
-
-**4.1.1** — The prison
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-03 |
-
-> **IMPORTANT:** Focus on the trapped HUMAN self inside the mirror
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-PEACEFUL |
 
 ```
-Close-up mirror surface, original humanoid self trapped within, pressing pale hands against glass from inside, flesh and golden warmth imprisoned in reflection, expression of absolute terror, trapped in own reflection, porcelain skin warm light, intimate horror portrait, soft warm light inside cold frame --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 450
+Medium shot, hollow silhouette examines own fading hands, trying to understand what it has become, alien to itself, quiet horror of completion, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**4.1.2** — Desperate eyes
+**3.5.2** — Memory in posture
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | — |
-
-```
-Extreme close-up, human eye seen through mirror glass, tear rolling down cheek, desperation and horror in gaze, trapped soul looking out from within reflection, intimate devastating detail, the watched becomes watcher from inside, macro detail shot, soft focus on glass sharp focus on eye --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --ar 16:9 --v 7 --s 400
-```
-
----
-
-**4.1.3** — Pounding glass
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | — |
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-PEACEFUL |
 
 ```
-Medium shot inside mirror perspective, trapped humanoid self pounds fists against glass barrier from within, expression of anguish and desperation, trying to break free, warm golden light illuminates flesh from within prison, confined desperation, dynamic pose, dramatic internal lighting --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --ar 16:9 --v 7 --s 450
+Medium shot, dissolving form unconsciously assumes familiar hunched posture, body memory preserved, ghost of former self in stance, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**4.1.4** — Outside horror
+**3.5.3** — Walking through bone world
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
-
-```
-Medium shot, red crystalline being stands frozen before mirror, faceted ruby form showing horror through geometry, realizing what they've become and what they've lost, confronting the exchange, horrific self-recognition, dramatic red lighting --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 450
-```
-
----
-
-**4.1.5** — Hands almost touching
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-PEACEFUL |
 
 ```
-Close-up hands, red crystalline faceted hand presses against mirror from outside, flesh hand with warm skin presses from inside, almost touching through glass, cannot connect, same person separated by transformation, devastating detail, intimate tragedy, harsh lighting contrast between warm and cold --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
+Wide shot, dissolving figure walks through organic architecture, movement matching environment rhythm, becoming one with the Other, assimilation in motion, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**4.1.6** — Screaming inside
+**3.5.4** — Discovers final mirror
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | — |
-
-```
-Close-up through mirror glass, trapped human self screaming silently inside reflection, mouth open in despair, sound cannot escape the glass, imprisoned in own reflection forever, intimate horror, extreme close-up through distorting glass surface, warm light trapped within --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --ar 16:9 --v 7 --s 450
-```
-
----
-
-**4.1.7** — Crystal weeping
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-PEACEFUL |
 
 ```
-Extreme close-up, red crystalline face of being outside mirror, ruby facets somehow expressing grief through geometry, crimson tear-like formations at eye area, monster mourning its lost humanity, beautiful horrible detail, macro shot, soft red light --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 400
+Medium shot, dissolving figure discovers ornate mirror floating in organic void, different from embedded one, special, drawn toward it with purpose, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**4.1.8** — The divide
+**3.5.5** — Approaching final mirror
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
-
-```
-Wide shot, red crystalline being and mirror with trapped warm human self visible within, vast ruby void surrounding, isolation of transformation complete, two versions of same person eternally separated, devastating composition, cinematic wide shot, dramatic volumetric red light contrasting warm mirror glow --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 450
-```
-
----
-
-## Scene 4.2: Desperate Reaching (2:45 - 3:00) — 8 images
-
----
-
-**4.2.1** — Trying to break through
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-PEACEFUL |
 
 ```
-Medium shot, red crystalline being claws at mirror surface desperately, trying to break through to trapped self, desperate violent attempt, ruby hands scraping against glass, futile rescue attempt, dynamic aggressive pose, harsh dramatic lighting --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
+Medium tracking shot, dissolving figure approaches floating mirror with slow deliberate steps, anticipation building, revelation imminent, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**4.2.2** — Cracks forming
+## Scene 3.6: Third Acceleration / The Revelation — CHORUS (2:20 - 2:30) — 8 images
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+**3.6.1** — Standing before mirror
 
-```
-Extreme close-up, cracks spreading through red crystalline being's hands from effort of reaching, the attempt to reunite destroys them, ruby facets fracturing and splintering, self-destruction through desperation, detailed body horror, macro shot of cracking crystal --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**4.2.3** — Inside reaching back
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | — |
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
 
 ```
-Close-up from inside mirror perspective, trapped human self reaching toward glass, toward the crystalline being that was once them, pale hands pressed against barrier, desperation matching desperation outside, two halves yearning for impossible reunion, warm hands against cold glass, emotional intimate shot --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --ar 16:9 --v 7 --s 450
+Medium shot, dissolving figure stands directly before floating mirror, environment pulsing with energy around, moment before truth, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-**4.2.4** — Being fractures
+**3.6.2** — Environment shifts to watch
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
-
-```
-Medium shot, cracks spreading up red crystalline being's arms from strain of reaching, body beginning to fragment from effort, the cost of desperate reaching, destruction accelerating, ruby form failing, dynamic pose of deterioration, harsh crimson lighting --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**4.2.5** — Environment reacts
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
 
 ```
-Wide shot, red crystalline void churns aggressively around scene, ruby geometry responding to the fracturing being, the Other disturbed by destruction of its absorbed part, chaotic environmental response, vast crimson chaos, extreme wide shot, harsh dynamic lighting --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 550
+Wide shot, entire organic architecture orients toward mirror and figure, environment gathering to witness revelation, massive flesh attention, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-**4.2.6** — Pressing harder
+**3.6.3** — Looking into mirror (over shoulder)
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
-
-```
-Close-up, red crystalline being presses faceted face against mirror surface, features distorting against glass, trying to be closer to trapped self, desperate intimacy, face cracking from pressure, devastating detail, extreme close-up, harsh lighting --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**4.2.7** — Watching self break
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | — |
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
 
 ```
-Medium shot from inside mirror perspective, trapped human self watches their crystalline form fracturing outside the glass, horror at watching own destruction from within, helpless witness, confined viewer watching inevitable collapse, dramatic perspective from within mirror, warm light contrasting cold exterior --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --ar 16:9 --v 7 --s 450
+Over-shoulder shot, fading figure looks into mirror surface, reflection not yet revealed to viewer, body language shifts to horror, seeing something devastating, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-**4.2.8** — Point of shattering
+**3.6.4** — THE TRUTH: Trapped self in mirror
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-03 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-AGGRESSIVE |
 
 ```
-Wide shot, red crystalline being covered in fracture lines, moments from total collapse, still reaching desperately for mirror, ruby form about to shatter completely, final desperate gesture before destruction, tragic pre-destruction pose, dramatic crimson lighting, tense stillness before breaking --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0 --sw 100 --ar 16:9 --v 7 --s 500
+Close-up of mirror surface, reflection shows ORIGINAL FLESHED SELF trapped INSIDE the mirror, elongated humanoid with pale flesh and familiar posture pressed against glass from within, screaming silently, warm flesh imprisoned in cold reflection, the transformation revealed as EXCHANGE, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-# ACT 5: SHATTERING (3:00 - END)
-*Falling action — Slowing pace*
+**3.6.5** — Both selves visible
 
-## Scene 5.1: The Breaking (3:00 - 3:12) — 5 images
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Wide shot showing BOTH: hollow silhouette standing OUTSIDE mirror, original fleshed self visible trapped INSIDE mirror reaching out, roles reversed, outside became inside, watcher became watched, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
 
 ---
 
-**5.1.1** — First shattering
+**3.6.6** — Trapped self screaming
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-04 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | — |
 
 ```
-Medium shot, red crystalline being SHATTERS starting from reaching hand, ruby fragments explode outward in beautiful destruction, body breaking into geometric pieces, the cost of yearning for what was lost, dynamic explosive composition, harsh dramatic lighting with motion blur --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/44db4e65-7465-45b3-a990-5173111cdd38?index=1 --sw 100 --ar 16:9 --v 7 --s 550
+Close-up through mirror glass, trapped fleshed face screaming silently inside reflection, mouth open in endless despair, hands pressed against glass barrier, cannot escape, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --ar 1:1 --v 7 --s 500
+```
+
+---
+
+**3.6.7** — Dissolving figure reaches toward mirror
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Medium shot, fading figure reaches toward mirror in horror and desperation, fading hand extending toward glass, trapped self reaching back from within, almost touching, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+**3.6.8** — Hands almost meeting
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Extreme close-up, fading hand presses against mirror from outside, flesh hand presses from inside, same gesture opposite sides of glass, cannot connect, same person separated by transformation, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+# ACT 4: THE REALIZATION (2:30 - 3:05)
+*14 images — Peak horror, desperate reaching, cost of yearning*
+
+---
+
+## Scene 4.1: The Prison (2:30 - 2:45) — 7 images
+
+**4.1.1** — Trapped self pounds glass
+
+| OREF | SREF |
+|------|------|
+| SELF-01 | — |
+
+```
+Medium shot from inside mirror perspective, trapped fleshed humanoid pounds fists against glass barrier, desperate to escape, warm golden-ochre lighting from within mirror prison, elongated figure confined in reflection, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**4.1.2** — Trapped self eyes
+
+| OREF | SREF |
+|------|------|
+| SELF-01 | — |
+
+```
+Extreme close-up, fleshed eye seen through mirror glass, tears rolling down cheek, desperation in gaze, trapped soul looking out from within reflection, intimate devastating detail, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --ar 1:1 --v 7 --s 450
+```
+
+---
+
+**4.1.3** — Dissolving figure frozen in horror
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Medium shot, hollow silhouette stands frozen before mirror, dissolving form somehow expressing horror through posture, realizing what it has become and lost, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**4.1.4** — The divide between selves
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Wide shot, fading figure and mirror with trapped self visible within, vast organic void surrounding, isolation complete, two versions of same person eternally separated, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**4.1.5** — Fading figure somehow weeping
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Close-up fading translucent face, hollow eye areas somehow expressing grief, trace of moisture on fading form perhaps last human residue, mourning lost humanity, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**4.1.6** — Trapped self pressed against glass
+
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
+
+```
+Medium shot, trapped fleshed self pressed fully against mirror surface from within, face distorted against glass, hands spread on barrier, desperate contact attempt, warm flesh against cold glass, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**4.1.7** — Dissolving figure begins reaching desperately
+
+| OREF | SREF |
+|------|------|
+| SELF-04 | ENV-AGGRESSIVE |
+
+```
+Medium shot, fading figure reaches desperately toward mirror surface, dissolving arms extending, trying to touch trapped self, desperate rescue attempt beginning, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/c47b3f33-24a3-4366-943e-c35a9866b4c2?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+## Scene 4.2: Desperate Reaching (2:45 - 3:05) — 7 images
+
+**4.2.1** — Clawing at mirror
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Medium shot, fading figure claws at mirror surface desperately, dissolving fingers scraping against glass, trying to break through to trapped self, futile rescue attempt, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+**4.2.2** — Form fragmenting from strain
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Extreme close-up, threads unraveling from fading figure's dissolving arm from strain of reaching, the attempt to reunite destroying it, form fragmenting, self-destruction through desperation, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+**4.2.3** — Trapped self reaches back
+
+| OREF | SREF |
+|------|------|
+| SELF-01 | — |
+
+```
+Close-up from inside mirror, trapped fleshed self reaching toward glass, toward the fading figure that was once them, matching desperation, two halves yearning for impossible reunion, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --ar 16:9 --v 7 --s 450
+```
+
+---
+
+**4.2.4** — Figure fragmenting from effort
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Medium shot, cracks spreading through entire dissolving form from strain, body beginning to fail from effort, pieces threatening to separate, destruction accelerating, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+**4.2.5** — Environment reacts to destruction
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Wide shot, organic architecture churns around dissolving figure, environment disturbed by destruction of absorbed part, flesh structures agitated, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 550
+```
+
+---
+
+**4.2.6** — Pressing face against mirror
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Close-up, fading figure presses translucent face against mirror surface, trying to be closer to trapped self, form distorting against glass, features dissolving from pressure, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+**4.2.7** — Point of shattering
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-AGGRESSIVE |
+
+```
+Wide shot, fading figure covered in dissolving threads, moments from total unraveling, still reaching desperately for mirror, tragic final gesture, tense stillness before dissolution, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/63b87ec3-c6da-4e61-808b-c6024f3c47ac?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
+```
+
+---
+
+# ACT 5: SHATTERING (3:05 - 3:23)
+*7 images — Fragmentation, absorption, final image*
+
+---
+
+## Scene 5.1: The Breaking (3:05 - 3:12) — 4 images
+
+**5.1.1** — First unraveling
+
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-APOCALYPSE |
+
+```
+Medium shot, figure UNRAVELS starting from reaching hand, threads and wisps explode outward in beautiful destruction, body dissolving into pieces, cost of yearning for what was lost, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/f9aa1070-27f1-4915-98b9-feb99001d014?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 550
 ```
 
 ---
 
 **5.1.2** — Cascade of fragments
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-04 |
-| SREF | OTHER-04 |
+| OREF | SREF |
+|------|------|
+| SELF-05 | ENV-APOCALYPSE |
 
 ```
-Wide shot, red crystalline body fragmenting rapidly into countless pieces, ruby shards scatter in all directions, form dissolving completely, beautiful horrible dissolution, geometric rain of what was once a being, vast void filling with crimson fragments, chaotic wide shot, volumetric red light --oref https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0 --ow 200 --sref https://www.midjourney.com/jobs/44db4e65-7465-45b3-a990-5173111cdd38?index=1 --sw 100 --ar 16:9 --v 7 --s 500
-```
-
----
-
-**5.1.3** — Watching destruction
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | — |
-
-```
-Close-up from inside mirror, trapped human self watches crystalline body shatter outside the glass, expression of grief and horror, witnessing their own death from within prison, tears streaming, devastated witness to inevitable, intimate emotional shot through glass surface, warm tears cold exterior --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --ar 16:9 --v 7 --s 450
+Wide shot, dissolving body fragmenting into countless threads, wisps scatter in all directions, form dissolving completely, beautiful dissolution, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, harsh dramatic lighting, oil painting texture --oref https://www.midjourney.com/jobs/e48ee13a-79d7-48bf-b623-122ac737677e?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/f9aa1070-27f1-4915-98b9-feb99001d014?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 500
 ```
 
 ---
 
-**5.1.4** — Fragments floating
+**5.1.3** — Trapped self watches destruction
 
-| Reference | Image |
-|-----------|-------|
-| OREF | — |
-| SREF | OTHER-04 |
-
-```
-Wide shot, countless red crystalline shards floating through vast void, what was once a being now scattered geometry, beautiful dissolution complete, ruby pieces drift slowly and peacefully, environment begins absorbing them, vast crimson void with floating fragments, peaceful aftermath of destruction, soft ambient red light --sref https://www.midjourney.com/jobs/44db4e65-7465-45b3-a990-5173111cdd38?index=1 --sw 100 --ar 16:9 --v 7 --s 400
-```
-
----
-
-**5.1.5** — Environment absorbing
-
-| Reference | Image |
-|-----------|-------|
-| OREF | — |
-| SREF | OTHER-04 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | — |
 
 ```
-Medium shot, red crystalline void absorbs floating fragments, ruby geometry consuming shattered pieces, the Other reclaiming what it made, fragments dissolving into larger formations, assimilation complete, the environment feeds, soft flowing absorption motion, ambient crimson glow --sref https://www.midjourney.com/jobs/44db4e65-7465-45b3-a990-5173111cdd38?index=1 --sw 100 --ar 16:9 --v 7 --s 400
+Close-up from inside mirror, trapped fleshed face watches figure unravel outside glass, expression of grief and horror, witnessing own death from within prison, tears streaming, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --ar 1:1 --v 7 --s 450
 ```
 
 ---
 
-## Scene 5.2: Into the Void (3:12 - 3:22) — 4 images
+**5.1.4** — Threads and wisps floating
+
+| OREF | SREF |
+|------|------|
+| — | ENV-APOCALYPSE |
+
+```
+Wide shot, countless dissolving threads floating through vast void, what was once a being now scattered geometry, peaceful dissolution, fragments drift slowly, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture, no figure --sref https://www.midjourney.com/jobs/f9aa1070-27f1-4915-98b9-feb99001d014?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
+```
 
 ---
 
-**5.2.1** — Last fragments
+## Scene 5.2: Into the Void (3:12 - 3:23) — 3 images
 
-| Reference | Image |
-|-----------|-------|
-| OREF | — |
-| SREF | OTHER-04 |
+**5.2.1** — Environment absorbs fragments
+
+| OREF | SREF |
+|------|------|
+| — | ENV-APOCALYPSE |
 
 ```
-Wide shot, final red crystalline fragments float through vast void, almost all absorbed by environment, sparse ruby pieces remaining, peaceful ending of dissolution, vast empty crimson space, minimal composition, soft ambient light fading slowly --sref https://www.midjourney.com/jobs/44db4e65-7465-45b3-a990-5173111cdd38?index=1 --sw 100 --ar 16:9 --v 7 --s 350
+Medium shot, organic architecture absorbs floating fragments, flesh structures consuming shattered pieces, the Other reclaiming what it made, architecture growing with new material, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --sref https://www.midjourney.com/jobs/f9aa1070-27f1-4915-98b9-feb99001d014?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
 **5.2.2** — Mirror alone
 
-| Reference | Image |
-|-----------|-------|
-| OREF | — |
-| SREF | OTHER-02 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Wide shot, single ornate mirror floats alone in red crystalline void, only artifact remaining in vast space, surrounding ruby geometry pulses slowly with satisfied rhythm, isolated object in infinite crimson space, ominous solitude, cinematic wide shot, soft ominous red glow --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
-```
-
----
-
-**5.2.3** — Trapped forever
-
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-02 |
-
-```
-Close-up of mirror floating in void, trapped human self still visible inside, pressing against glass with eternal despair, prisoner in own reflection forever, no rescue coming ever, devastating final portrait of the trapped soul, intimate close-up, soft warm light trapped in cold frame surrounded by red void --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
+Wide shot, single ornate mirror floats alone in vast organic void, only artifact remaining, trapped fleshed self still visible inside pressing against glass, surrounding architecture pulses slowly satisfied, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 400
 ```
 
 ---
 
-**5.2.4** — Final image
+**5.2.3** — FINAL IMAGE: Eternal prison
 
-| Reference | Image |
-|-----------|-------|
-| OREF | SELF-01 |
-| SREF | OTHER-02 |
-
-```
-Wide establishing shot, mirror floating in infinite red crystalline void, trapped human self visible small within pressing against glass, vast ruby geometric environment surrounding and watching and pulsing, the Other victorious forever, eternal imprisonment complete, final haunting composition, cinematic wide shot, soft pulsing crimson light --oref https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2 --ow 200 --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 400
-```
-
----
-
-## Scene 5.3: Fade (3:22 - END) — 3 images
-
----
-
-**5.3.1** — Environment pulses
-
-| Reference | Image |
-|-----------|-------|
-| OREF | — |
-| SREF | OTHER-02 |
+| OREF | SREF |
+|------|------|
+| SELF-01 | ENV-PEACEFUL |
 
 ```
-Wide shot, red crystalline void pulses slowly with satisfied rhythm, vast ruby geometry breathing contentedly after feeding, the Other satiated, mirror tiny in far distance, peaceful apocalyptic landscape at rest, serene horror, soft rhythmic crimson light --sref https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1 --sw 100 --ar 16:9 --v 7 --s 350
+Wide establishing shot, mirror floating in infinite organic cathedral void, trapped elongated humanoid self visible small within pressing against glass eternally, vast ochre flesh architecture surrounding watching breathing, the Other victorious forever, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft pulsing amber light, oil painting texture, eternal imprisonment complete --oref https://www.midjourney.com/jobs/5918fde7-8074-46d4-91c9-52a1379804f8?index=0&folder=selfless%20v1 --ow 250 --sref https://www.midjourney.com/jobs/58b9464b-d3a9-4a0e-90c4-7cc45f0c1b1f?index=0&folder=selfless%20v1 --sw 100 --ar 16:9 --v 7 --s 450
 ```
 
 ---
 
-**5.3.2** — Darkness creeping
+# QUICK REFERENCE TABLES
 
-| Reference | Image |
-|-----------|-------|
-| OREF | — |
-| SREF | — |
+## Character Reference by Scene
 
-```
-Wide shot, edges of red crystalline void fading to black, darkness consuming the crimson from all sides, light dying slowly, reality ending, fade to void beginning, vast space diminishing, creeping absolute darkness from edges, soft dying red glow --ar 16:9 --v 7 --s 350
-```
+| Act/Scene | Stage | Reference |
+|-----------|-------|-----------|
+| ACT 1 (all) | Intact flesh | SELF-01 |
+| ACT 2 (all) | Intact flesh | SELF-01 |
+| 3.1 | Edges blurring | SELF-02 |
+| 3.2 | Mid-dissolution | SELF-03 |
+| 3.3 | Mid-dissolution | SELF-03 |
+| 3.4 (early) | Transitioning | SELF-03 → SELF-04 |
+| 3.4 (late) | Hollow silhouette | SELF-04 → SELF-05 |
+| 3.5 | Fading remnant | SELF-05 |
+| 3.6 | Fading + Trapped | SELF-05 + SELF-01 (in mirror) |
+| ACT 4 | Fading + Trapped | SELF-05 + SELF-01 (in mirror) |
+| ACT 5 | Fragmenting + Trapped | SELF-05 + SELF-01 (in mirror) |
 
----
+## Environment Reference by Section
 
-**5.3.3** — Final black
-
-| Reference | Image |
-|-----------|-------|
-| OREF | — |
-| SREF | — |
-
-```
-Nearly black frame, last traces of red crystalline light fading to nothing, void consuming all color, only faint suggestion of ruby glow remaining then gone, ending, darkness wins, minimal abstract composition, almost pure black with dying crimson whispers --ar 16:9 --v 7 --s 300
-```
-
----
-
-# QUICK REFERENCE: WHICH IMAGE FOR EACH SCENE
-
-## THE SELF (--oref)
-
-| Act/Scene | Reference | Reason |
-|-----------|-----------|--------|
-| ACT 1 (all) | SELF-01 | Intact human |
-| ACT 2 (all) | SELF-01 | Still intact |
-| 3.1 | SELF-02 | Early deterioration |
-| 3.2 | SELF-03 | Mid-transformation chorus |
-| 3.3 | SELF-03 | Mid-transformation verse |
-| 3.4 (early) | SELF-03 | Transitioning |
-| 3.4 (late) | SELF-04 | Near complete |
-| 3.5 | SELF-04 | Crystalline form |
-| 3.6 | SELF-04 + SELF-01 | Both forms (revelation) |
-| ACT 4 (outside) | SELF-04 | Crystalline being |
-| ACT 4 (trapped) | SELF-01 | Human in mirror |
-| ACT 5 | SELF-04 + SELF-01 | Shattering + trapped |
-
-## THE OTHER Environment (--sref)
-
-| Section | Reference | Reason |
-|---------|-----------|--------|
-| Verses (slow) | OTHER-01 or OTHER-02 | Peaceful/Active |
-| Choruses (fast) | OTHER-03 | Aggressive |
-| Climax (ACT 4) | OTHER-03 | Maximum intensity |
-| Shattering | OTHER-04 | Apocalyptic |
-| Ending fade | OTHER-02 → none | Calming to black |
+| Section | Intensity | Reference |
+|---------|-----------|-----------|
+| ACT 1 (labyrinth) | Cold liminal | ENV-MIRROR |
+| ACT 2 (entry) | Peaceful | ENV-PEACEFUL |
+| ACT 2 (trap) | Watching | ENV-PEACEFUL |
+| Verses (slow) | Peaceful/Watching | ENV-PEACEFUL |
+| Choruses (fast) | Aggressive | ENV-AGGRESSIVE |
+| Climax (revelation) | Aggressive | ENV-AGGRESSIVE |
+| Shattering | Apocalyptic | ENV-APOCALYPSE |
+| Final image | Watching | ENV-PEACEFUL |
 
 ---
 
-# TOTAL IMAGE COUNT: 78 images
+# TOTAL IMAGE COUNT: 90 images
 
-| Act | Images | Character Refs Used |
-|-----|--------|---------------------|
-| ACT 1 | 12 | SELF-01 |
-| ACT 2 | 8 | SELF-01 |
-| ACT 3 | 35 | SELF-02 → SELF-03 → SELF-04 |
-| ACT 4 | 16 | SELF-04 + SELF-01 |
-| ACT 5 | 7 | SELF-04 + SELF-01 |
+| Act | Images | Time |
+|-----|--------|------|
+| ACT 1 | 14 | 0:00 - 0:45 |
+| ACT 2 | 10 | 0:45 - 1:10 |
+| ACT 3.1 (verse) | 6 | 1:10 - 1:25 |
+| ACT 3.2 (chorus) | 10 | 1:25 - 1:40 |
+| ACT 3.3 (verse) | 6 | 1:40 - 1:55 |
+| ACT 3.4 (chorus) | 10 | 1:55 - 2:10 |
+| ACT 3.5 (verse) | 5 | 2:10 - 2:20 |
+| ACT 3.6 (chorus) | 8 | 2:20 - 2:30 |
+| ACT 4 | 14 | 2:30 - 3:05 |
+| ACT 5 | 7 | 3:05 - 3:23 |
 
 ---
 
 # PRODUCTION CHECKLIST
 
 ```
-STEP 1 - CREATE REFERENCE IMAGES:
-[X] SELF-01 generated and URL saved: https://www.midjourney.com/jobs/74d0e64d-5307-4035-934e-6ff290fa3351?index=2
-[X] SELF-02 generated and URL saved: https://www.midjourney.com/jobs/f635f459-9a5c-452e-894f-28b1201814eb?index=0
-[X] SELF-03 generated and URL saved: https://www.midjourney.com/jobs/c93195a9-80f5-4314-b2fd-0f1515ea6d63?index=0
-[X] SELF-04 generated and URL saved: https://www.midjourney.com/jobs/daefa63d-ae7d-42f8-ab8c-b8f1e0185045?index=0
-[X] OTHER-01 generated and URL saved: https://www.midjourney.com/jobs/104deaa1-7824-4248-8aad-62a240b8130c?index=2
-[X] OTHER-02 generated and URL saved: https://www.midjourney.com/jobs/2d500449-a6a6-4853-ad4e-1d5470f49845?index=1
-[X] OTHER-03 generated and URL saved: https://www.midjourney.com/jobs/636c8236-6108-4db2-bfb0-9131c51b2d07?index=0
-[X] OTHER-04 generated and URL saved: https://www.midjourney.com/jobs/44db4e65-7465-45b3-a990-5173111cdd38?index=1
+STEP 1 - CREATE CHARACTER REFERENCES (5 images):
+[ ] SELF-01 (intact flesh) generated and URL saved
+[ ] SELF-02 (edges blurring) generated and URL saved
+[ ] SELF-03 (mid-dissolution) generated and URL saved
+[ ] SELF-04 (hollow silhouette) generated and URL saved
+[ ] SELF-05 (fading remnant) generated and URL saved
 
-STEP 2 - GENERATE SCENE IMAGES:
-[ ] ACT 1 Scene 1.1 (4 images)
-[ ] ACT 1 Scene 1.2 (4 images)
+STEP 2 - CREATE ENVIRONMENT REFERENCES (4 images):
+[ ] ENV-MIRROR (cold labyrinth) generated and URL saved
+[ ] ENV-PEACEFUL (peaceful bone) generated and URL saved
+[ ] ENV-AGGRESSIVE (violent bone) generated and URL saved
+[ ] ENV-APOCALYPSE (shattering) generated and URL saved
+
+STEP 3 - GENERATE SCENE IMAGES (90 images):
+[ ] ACT 1 Scene 1.1 (5 images)
+[ ] ACT 1 Scene 1.2 (5 images)
 [ ] ACT 1 Scene 1.3 (4 images)
 [ ] ACT 2 Scene 2.1 (5 images)
-[ ] ACT 2 Scene 2.2 (3 images)
-[ ] ACT 3 Scene 3.1 VERSE (5 images)
-[ ] ACT 3 Scene 3.2 CHORUS (8 images)
-[ ] ACT 3 Scene 3.3 VERSE (4 images)
-[ ] ACT 3 Scene 3.4 CHORUS (8 images)
-[ ] ACT 3 Scene 3.5 VERSE (4 images)
-[ ] ACT 3 Scene 3.6 CHORUS (6 images)
-[ ] ACT 4 Scene 4.1 (8 images)
-[ ] ACT 4 Scene 4.2 (8 images)
-[ ] ACT 5 Scene 5.1 (5 images)
-[ ] ACT 5 Scene 5.2 (4 images)
-[ ] ACT 5 Scene 5.3 (3 images)
+[ ] ACT 2 Scene 2.2 (5 images)
+[ ] ACT 3 Scene 3.1 VERSE (6 images)
+[ ] ACT 3 Scene 3.2 CHORUS (10 images)
+[ ] ACT 3 Scene 3.3 VERSE (6 images)
+[ ] ACT 3 Scene 3.4 CHORUS (10 images)
+[ ] ACT 3 Scene 3.5 VERSE (5 images)
+[ ] ACT 3 Scene 3.6 CHORUS (8 images)
+[ ] ACT 4 Scene 4.1 (7 images)
+[ ] ACT 4 Scene 4.2 (7 images)
+[ ] ACT 5 Scene 5.1 (4 images)
+[ ] ACT 5 Scene 5.2 (3 images)
 
-STEP 3 - POST-PRODUCTION:
-[ ] Import all 78 images to DaVinci Resolve
+STEP 4 - POST-PRODUCTION:
+[ ] Import all 90 images to video editor
 [ ] Arrange in sequence order
 [ ] Sync to music beats
 [ ] Add Ken Burns pan/zoom effects
@@ -1365,29 +1575,86 @@ STEP 3 - POST-PRODUCTION:
 
 ---
 
-# SOURCES
+# STYLE CONSISTENCY NOTES
 
-- [Midjourney Omni Reference Guide](https://www.cometapi.com/how-to-use-omni-reference-in-midjourney-v7/)
-- [Midjourney Character Consistency - AIArty](https://www.aiarty.com/midjourney-guide/midjourney-consistent-character.htm)
-- [Midjourney V7 Prompting - SurePrompts](https://sureprompts.com/blog/midjourney-v7-prompting-guide)
-- [Style Reference Guide - SkyWork](https://skywork.ai/skypage/en/Mastering-Midjourney-sref-The-Ultimate-Guide-to-Consistent-and-Stunning-AI-Art/1976164257333571584)
+## Beksiński Style Checklist
+
+Every generated image should have:
+- [ ] Ochre/sepia/amber/umber color palette
+- [ ] Soft diffuse lighting (no harsh shadows except in chorus scenes)
+- [ ] Oil painting texture feel
+- [ ] Dreamlike atmospheric haze at edges
+- [ ] Organic bone/flesh architecture (not geometric crystal)
+- [ ] Elongated figure proportions maintained
+- [ ] Melancholic mood even in horror
+
+## Common Prompt Suffixes
+
+**For verses (peaceful/slow):**
+```
+Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, soft diffuse lighting, oil painting texture --ar 16:9 --v 7 --s 400-450
+```
+
+**For choruses (aggressive/fast):**
+```
+Zdzislaw Beksinski style, amber umber palette, intense atmosphere, harsh dramatic lighting, oil painting texture --ar 16:9 --v 7 --s 500-550
+```
+
+**For portraits/close-ups:**
+```
+Zdzislaw Beksinski style, ochre tones, intimate portrait, soft focus edges --ar 1:1 --v 7 --s 450
+```
 
 ---
 
-# THE STORY (REPEATED FOR REFERENCE)
+# LYRICS-TO-SCENE SYNC
 
-**"Selfless" = Becoming SELF-LESS (empty, no identity)**
+Use this for timing specific images to lyrics in Vegas Pro.
 
-THE SELF is a humanoid being searching for their reflection in an infinite mirror labyrinth. But every mirror shows something wrong — not their face, but glimpses of a red crystalline void. THE OTHER is not a character but the environment itself: a living, breathing red crystalline dimension that watches, waits, and hungers.
+| Lyric | Suggested Scene(s) | Image # | Notes |
+|-------|-------------------|---------|-------|
+| **"I beg you, take me"** | 1.2.4 — The inviting mirror | #9 | Figure reaching toward glowing mirror portal |
+| **"With you"** | 1.3.2 — Passing through | #12 | Body crossing through mirror surface |
+| **"I give you meaning"** | 2.1.4 — Touching bone architecture | #19 | Intimate contact with environment |
+| **"You owe me life"** | 2.2.1 — Environment responds | #21 | Environment becoming aware, mutual exchange begins |
+| **"All for this fight"** | 3.2.1 — Violent dissolution surge | #31 | First chorus acceleration |
+| **"Lost for myself"** | 3.2.4 — Form dissolving | #34 | Identity fracturing visually |
+| **"Such a likely story"** | 3.3.1 — Transformation pauses | #41 | Ironic calm, examining changed body |
+| **"Here I am"** | 3.3.4 — Environment blocks paths | #44 | Trapped, no escape, accepting fate |
+| **"I'll live it all for"** | 3.4.4 — Silhouette forming | #52 | Becoming what consumed them |
+| **"Pleasing just you"** | 3.4.5 — Environment consuming all flesh | #53 | Feeding complete, environment satisfied |
+| **"Self-appointed slavery"** | 3.4.7 — Complete dissolving figure stands | #55 | Transformation complete by choice |
+| **"I need to survive"** | 3.5.4 — Discovers final mirror | #63 | Last hope, false survival instinct |
+| **"Take me with you"** (reprise) | 3.6.4 — THE TRUTH revealed | #68 | Devastating reveal of trapped self |
+| **"You owe me your life"** | 4.1.5 — Fading figure weeping | #75 | Role reversal — dissolving figure mourns |
+| **"All for my fight"** | 4.2.4 — Figure fragmenting | #82 | Self-destruction through reaching |
+| **"Lost for yourself"** | 5.1.3 — Trapped self watches destruction | #87 | Witnessing own death from within prison |
+| **"You depend on this"** | 5.2.1 — Environment absorbs fragments | #88 | Environment consuming, completing cycle |
+| **"Yourself-lessness"** | 5.2.3 — FINAL IMAGE | #90 | Eternal imprisonment, SELF-LESS forever |
 
-Drawn by obsession, THE SELF steps through a mirror and enters this crimson geometric world. At first it's peaceful, beautiful, seductive. But the environment begins to consume them. Their flesh cracks. Crystals grow from their skin. With each verse, the change creeps slowly. With each chorus, it accelerates violently.
+## Timing Strategy
 
-THE SELF explores deeper, hoping to find themselves, but only loses more. The red crystalline environment shifts and morphs constantly — it IS the Other, surrounding them completely, absorbing them piece by piece.
+**Verses (slower):**
+- Hold images longer (2.5-3.5 seconds)
+- Dissolve transitions
+- Match contemplative moments
 
-In the climax, THE SELF finds one final mirror. They look in and see the horror: they have BECOME part of the red crystalline environment. Their old human self is trapped IN the mirror, looking back, screaming silently. The watcher has become the watched. The consumed has become the consumer.
+**Choruses (faster):**
+- Quick cuts (1-2 seconds)
+- Hard cuts or flash transitions
+- Match intense lyrics to transformation violence
 
-Desperate, the now-crystalline being reaches for the mirror, trying to touch their old self. But the strain shatters them. They fragment into a thousand red crystalline shards, scattering into the void. The environment — THE OTHER — absorbs these pieces.
+**Key Sync Points:**
+- "Lost for myself" → Form dissolving (exact hit)
+- "Self-appointed slavery" → Complete dissolution (revelation)
+- Final "yourself-lessness" → Hold on final image through end
 
-Final image: the mirror floats alone in the red crystalline void. Inside it, the trapped human SELF presses against the glass forever. The environment pulses. It has won. It has always won.
+---
 
-**The message:** When you give yourself completely to another, you don't just lose yourself — you become the thing that consumed you, and your true self becomes a prisoner you can never reach again.
+# THE MESSAGE
+
+**"Selfless" = Becoming SELF-LESS**
+
+When you give yourself completely to another, you don't just lose yourself — you become the thing that consumed you, and your true self becomes a prisoner you can never reach again.
+
+The environment won. It always wins. It always has.
