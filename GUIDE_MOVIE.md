@@ -1,557 +1,352 @@
 # SELFLESS — Music Video Production Guide
-## Chimpanzee Edition | Beksiński Style | Dark Psychological Horror
+## The Mime | Silent Film Comedy | Chaplin Edition
 
 ---
 
 # THE CONCEPT
 
-**"Selfless" = Becoming SELF-LESS (without self, hollowed out)**
+**A love letter to silent film comedy. Funny. Sad. Mostly funny. Okay, also pretty sad.**
 
-The main character is a **chimpanzee** — chosen deliberately. Chimps are one of the only animals that recognize themselves in mirrors. They wage wars. They betray. They are almost human, which makes their suffering deeply unsettling.
+Our hero is a **chimpanzee street mime** — bowler hat, striped shirt, badly-applied white face paint. He performs on a cobblestone corner for tips that never come, waiting for an audience that doesn't exist.
 
-THE CHIMP wanders an infinite mirror labyrinth, searching for its reflection. But the mirrors show something else — an organic world of flesh architecture that watches and waits. Drawn by obsession, the chimp steps through into this sepia world of impossible beauty.
+Then he sees HER. And everything he does from that moment is to make her notice him.
 
-The environment consumes it slowly. With each verse, the dissolution creeps — edges blurring, fur fading, form becoming translucent. With each chorus, it accelerates violently — flesh unraveling into threads, body merging with organic walls.
+She never does. Until she does. Sort of.
 
-The horror: when the chimp finds a final mirror, it sees its TRUE self trapped inside the glass. The thing standing outside is the hollow replacement. Watcher became watched. The chimp traded places with its reflection and didn't know.
+**The humor:** Classic physical comedy. Pratfalls. Sight gags. The hat that won't stay on. The invisible wall that turns out to be a real wall. The wind routine ruined by actual wind.
 
-Desperate to reconnect, the fading chimp reaches for the mirror — and the effort destroys it completely. Threads scatter. The environment absorbs the fragments. Only the mirror remains, with the true chimp trapped inside forever.
+**The melancholy:** He gives everything and gets almost nothing back. But "almost nothing" includes one smile, one look back, one moment of connection. And maybe that's enough.
 
-**The message:** Self-recognition was the beginning of the end. Knowing your own face means you can lose it.
+**The style:** Charlie Chaplin meets Buster Keaton meets a chimpanzee who just wants to be loved.
 
 ---
 
-# VISUAL STYLE: ZDZISŁAW BEKSIŃSKI
+# VISUAL STYLE: SILENT FILM ERA
 
-Every image must embody Beksiński's nightmare aesthetic:
+Every image should feel like a lost silent film discovered in an attic.
 
 | Element | Application |
 |---------|-------------|
-| **Color palette** | Ochre, sepia, amber, dried blood browns, bone ivory |
-| **The Chimp** | Realistic but distorted, almost-human expressions, primal poses |
-| **Architecture** | Organic fading structures, flesh cathedrals, impossible perspectives |
-| **Atmosphere** | Dreamlike haze, soft edges, no clear horizon |
-| **Lighting** | Diffuse, no clear source, volumetric fog |
-| **Texture** | Oil painting quality, visible brushwork feel |
-| **Mood** | Quiet horror, psychological dread, primal fear |
+| **Color palette** | Warm sepia, cream, soft browns, amber highlights |
+| **Film quality** | Vintage grain, soft vignette edges, slight flicker feel |
+| **Lighting** | Natural daylight, golden hour, soft theatrical spots |
+| **Setting** | Timeless European cobblestone street, old buildings |
+| **Props** | Wooden crate stage, tin can with flower, hand-painted sign |
+| **Costume** | Striped mime shirt, bowler hat, white face paint |
+| **Expressions** | Exaggerated silent film acting, big emotions |
+| **Mood** | Whimsical, nostalgic, bittersweet, warm |
 
-**CRITICAL:** Pure Beksiński throughout. No anime, no cinematic gloss. Raw, painterly, unsettling.
-
----
-
-# THE CHIMP — CHARACTER DESIGN
-
-The chimpanzee must feel real but wrong. Almost human. Too intelligent. Too aware.
-
-**Physical traits:**
-- Adult chimpanzee, dark fur, muscular build
-- Intelligent, searching eyes — not animal blankness but recognition
-- Expressive face capable of fear, wonder, horror, despair
-- Long arms, knuckle-walking posture, hunched shoulders
-- As dissolution progresses: fur fades, edges blur, form becomes translucent
-
-**Behavioral traits:**
-- Moves with primal purpose — searching, climbing, reaching
-- Touches mirrors with almost-human curiosity
-- Rages with animal violence when trapped
-- Shows recognition when seeing itself — the key to the horror
-
-**The uncanny valley effect:**
-The chimp should disturb viewers because it's so close to human. When it suffers, we feel it. When it recognizes itself in the mirror, we recognize ourselves.
+**KEY REFERENCE:** Charlie Chaplin's "City Lights" and "The Kid" — comedy that makes you laugh then suddenly makes you feel things.
 
 ---
 
-# REFERENCE SYSTEM
+# THE CHARACTERS
 
-## Character References (5 stages of dissolution)
+## THE MIME (Our Hero)
 
-| ID | Stage | Description |
-|----|-------|-------------|
-| CHIMP-01 | Intact | Fully solid, dark fur, searching expression |
-| CHIMP-02 | Edges Blurring | Softening at extremities, slightly translucent |
-| CHIMP-03 | Half-Dissolved | Fibrous texture, threads forming, fur fading |
-| CHIMP-04 | Hollow Silhouette | Mostly translucent, environment visible through |
-| CHIMP-05 | Fading Remnant | Wisps and traces, almost absorbed |
+A chimpanzee street performer. Earnest. Terrible at love. Pretty good at mime.
 
-## Environment References (4 worlds)
+**Appearance:**
+- Adult chimp with expressive face
+- Classic black & white striped mime shirt
+- Tiny bowler hat (always falling off)
+- White face paint, badly applied, endearingly smudged
+- Fingerless gloves (optional, adds charm)
 
-| ID | Environment | Description |
-|----|-------------|-------------|
-| ENV-MIRROR | Cold Labyrinth | Silver-blue infinite corridors, clinical, empty |
-| ENV-PEACEFUL | Seductive Organic | Warm ochre, inviting flesh architecture |
-| ENV-AGGRESSIVE | Consuming Organic | Violent, pulsing, walls closing in |
-| ENV-VOID | Final Dissolution | Dark amber void, fragments floating |
+**Personality:**
+- Overeager, tries too hard
+- Genuinely talented but undermined by bad luck
+- Hopeless romantic
+- Never gives up (maybe should sometimes)
 
-**Total: 9 reference images to generate first**
+**Recurring gags:**
+- Hat falls off at worst moments
+- Lands perfectly when no one's watching
+- The sympathetic pigeon that keeps appearing
 
----
+## THE LOVE INTEREST (She/Her)
 
-# CHARACTER REFERENCE PROMPTS
+Intentionally somewhat abstract — could be human, could be another chimp. What matters is she represents everything he wants.
 
-## CHIMP-01: Intact (Primary Character)
+**Appearance:**
+- Elegant, moves gracefully
+- Always slightly out of focus or partially framed
+- We see her mostly through HIS eyes
 
-```
-Adult chimpanzee standing in void, realistic dark fur, intelligent searching eyes with almost-human awareness, muscular build, long arms hanging at sides, knuckle-walking posture, hunched shoulders, expression of curiosity mixed with unease, clearly defined edges and solid form, Zdzislaw Beksinski style, ochre sepia background, dreamlike atmosphere, soft diffuse lighting, oil painting texture, full body view --ar 2:3 --v 7 --s 450
-```
+**Role:**
+- Walks past repeatedly, different directions
+- Never notices him (until she does)
+- Has her own inner life (the crying scene)
 
-## CHIMP-02: Edges Blurring
+## THE PIGEON (Scene Stealer)
 
-```
-Same adult chimpanzee now showing early dissolution, edges of body becoming soft and blurred, fur taking on slightly translucent quality at fingertips and edges, features softening as if seen through fog, same hunched posture, beginning to lose definition, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, oil painting texture --ar 2:3 --v 7 --s 450
-```
-
-## CHIMP-03: Half-Dissolved
-
-```
-Same chimpanzee significantly dissolved, body becoming fibrous and thread-like, fur unraveling into organic tendrils, torso partially translucent showing internal textures, one arm solid while other dissolves into strands, distinctive hunched posture preserved, Zdzislaw Beksinski style, amber ochre palette, dreamlike horror, oil painting texture --ar 2:3 --v 7 --s 500
-```
-
-## CHIMP-04: Hollow Silhouette
-
-```
-Same chimpanzee mostly dissolved into hollow form, body a translucent silhouette with environment visible through, only outline and traces remaining, figure like a fading photograph, same posture preserved in ghostly outline, wisps trailing from edges, Zdzislaw Beksinski style, ochre void, oil painting texture --ar 2:3 --v 7 --s 450
-```
-
-## CHIMP-05: Fading Remnant
-
-```
-Chimpanzee almost completely dissolved, barely visible outline fragmenting into wisps and floating threads, distinctive hunched proportions barely recognizable, like smoke dispersing, fragments drifting apart, Zdzislaw Beksinski style, sepia darkness, oil painting texture --ar 2:3 --v 7 --s 450
-```
+A regular pigeon. Lands on the chimp at comedically inappropriate moments. No explanation needed. Pigeons do this.
 
 ---
 
-# ENVIRONMENT REFERENCE PROMPTS
+# PROPS & SET DESIGN
 
-## ENV-MIRROR: Cold Labyrinth
+## The Performance Corner
 
-```
-Infinite corridor of mirrors stretching in all directions, cold silver-blue metallic surfaces, liminal backrooms aesthetic, impossible geometry, reflections multiplying into darkness, clinical and empty, Zdzislaw Beksinski style, cold blue-silver palette, unsettling emptiness, wide shot, no figures --ar 16:9 --v 7 --s 400
-```
+A small cobblestone corner that becomes our stage. Timeless European city feel.
 
-## ENV-PEACEFUL: Seductive Organic World
+**Essential props:**
+- **Wooden crate** — his "stage," gets knocked over repeatedly
+- **Tin can with wilting flower** — sad, perfect, symbolic
+- **Hand-painted sign** — "PERFORMANCES - FREE (tips appreciated)"
+- **Tip jar** — mostly empty, gets one coin eventually
+- **The bowler hat** — practically a character itself
 
-```
-Vast serene landscape of organic flesh architecture, cathedral-like arches made of stretched membrane, towers of folded tissue, walls textured like living skin, beautiful and inviting despite being made of flesh, warm ochre glow, Zdzislaw Beksinski style, sepia palette, dreamlike atmosphere, no figures --ar 16:9 --v 7 --s 450
-```
+## Visual Motifs
 
-## ENV-AGGRESSIVE: Consuming Organic World
-
-```
-Organic flesh architecture in violent motion, membrane structures stretching and tearing, tissue towers pulsing, organic forms reaching and grasping hungrily, walls closing in, threatening alive architecture, Zdzislaw Beksinski style, amber ochre palette, harsh dramatic lighting, no figures --ar 16:9 --v 7 --s 550
-```
-
-## ENV-VOID: Final Dissolution
-
-```
-Organic architecture in dissolution, flesh structures unraveling into threads, wisps flying in all directions, tissue tearing apart, dark umber fading to void black, fragments floating in darkness, Zdzislaw Beksinski style, intense atmosphere, no figures --ar 16:9 --v 7 --s 550
-```
+| Motif | Meaning | Appearances |
+|-------|---------|-------------|
+| The falling hat | His constant struggle | Every scene |
+| The wilting flower | His hopeful heart | Setup, Final gift |
+| The invisible wall | Barriers between people | Act 2 gag |
+| The pigeon | Life's absurdity | Acts 3, Final |
+| Her looking back | Connection achieved | Final moment |
 
 ---
 
 # SCENE BREAKDOWN
 
-**Total: 35 images** (focused, story-driven)
+**Total: 28 images** (focused on comedic timing and emotional beats)
 
-| Act | Scenes | Images | Duration |
-|-----|--------|--------|----------|
-| 1: Mirror Labyrinth | 3 | 8 | 0:00-0:45 |
-| 2: Seduction | 2 | 6 | 0:45-1:20 |
-| 3: Transformation | 3 | 9 | 1:20-2:15 |
-| 4: Realization | 2 | 6 | 2:15-2:50 |
-| 5: Shattering | 2 | 6 | 2:50-3:20 |
-
----
-
-# ACT 1: THE MIRROR LABYRINTH (8 images)
-
-*Discovery, self-recognition, the wrong reflections, crossing through*
+| Act | Focus | Images |
+|-----|-------|--------|
+| Setup | Introducing our mime | 4 |
+| Act 1 | First glimpse, love at first sight | 4 |
+| Act 2 | The Invisible Wall gag | 5 |
+| Act 3 | The Wind routine disaster | 5 |
+| Act 4 | The Box, first real contact | 5 |
+| Act 5 | The Giving, emotional climax | 5 |
 
 ---
 
-## Scene 1.1: Self-Recognition (3 images)
+# SETUP: THE MIME (4 images)
 
-**1.1.1** — Wide establishing: Chimp in the labyrinth
-
-```
-Wide shot, adult chimpanzee stands small in center of infinite mirror corridor, cold silver-blue surfaces stretch in all directions, chimp's dark fur contrasts cold environment, knuckle-walking posture, searching, reflections multiply into darkness, Zdzislaw Beksinski style, liminal atmosphere, oil painting texture --ar 16:9 --v 7 --s 400
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-MIRROR |
-
-**1.1.2** — The chimp recognizes itself
-
-```
-Medium shot, chimpanzee stands before ornate mirror, hand pressed against glass, reflection shows its own face correctly, moment of self-recognition, intelligent eyes meeting intelligent eyes, the almost-human awareness, cold corridor behind, Zdzislaw Beksinski style, liminal atmosphere, oil painting texture --ar 16:9 --v 7 --s 400
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-MIRROR |
-
-**1.1.3** — First wrong reflection
-
-```
-Close shot of mirror surface, reflection shows NOT the chimp but glimpse of ochre organic world, flesh architecture visible where face should be, warm sepia bleeding through cold silver glass, something is wrong, Zdzislaw Beksinski style, dreamlike atmosphere, oil painting texture --ar 16:9 --v 7 --s 450
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-PEACEFUL |
+*Establishing our hero, his world, his loneliness*
 
 ---
 
-## Scene 1.2: The Other World Revealed (3 images)
-
-**1.2.1** — Every mirror shows the organic world
+**SETUP-1** — The empty corner
 
 ```
-Wide shot, chimpanzee walks through corridor, every mirror filled with ochre organic shapes instead of reflections, flesh architecture watching from silver frames, warm sepia pressing in from all sides, chimp surrounded, Zdzislaw Beksinski style, dreamlike atmosphere, oil painting texture --ar 16:9 --v 7 --s 450
+Wide shot, cobblestone street corner in timeless European city, warm sepia tones, vintage film grain, soft morning light, empty except for small wooden crate stage with hand-painted sign, tin can with wilting flower, quiet loneliness, silent film aesthetic, nostalgic atmosphere --ar 16:9 --v 7 --s 400
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-MIRROR |
 
-**1.2.2** — The inviting mirror
+**SETUP-2** — Our hero waits
 
 ```
-Medium shot, single large mirror glows with warm ochre light, beautiful organic landscape visible through glass like doorway, chimpanzee drawn toward it, hand reaching, seduction beginning, Zdzislaw Beksinski style, ochre sepia palette, oil painting texture --ar 16:9 --v 7 --s 450
+Medium shot, chimpanzee street mime sits on wooden crate stage, wearing striped black and white mime shirt and tiny bowler hat, white face paint endearingly smudged, waiting for audience that doesn't exist, hopeful expression, warm sepia tones, vintage film grain, Charlie Chaplin aesthetic, nostalgic melancholy --ar 16:9 --v 7 --s 450
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-PEACEFUL |
 
-**1.2.3** — Hand touches rippling glass
+**SETUP-3** — The hat gag begins
 
 ```
-Extreme close-up, dark-furred chimp hand presses against mirror surface, glass ripples like liquid water, organic world visible through distortion, moment before crossing, Zdzislaw Beksinski style, ochre sepia palette, oil painting texture --ar 16:9 --v 7 --s 450
+Medium shot, chimp mime adjusts his bowler hat, moment captured just as hat begins to fall off his head, surprised expression starting to form, classic silent film comedy timing, sepia tones, vintage film aesthetic, physical comedy setup --ar 16:9 --v 7 --s 450
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-PEACEFUL |
+
+**SETUP-4** — Hat recovered (nobody watching)
+
+```
+Medium shot, chimp mime catches falling bowler hat with perfect grace, places it back on head with dignity, but street is completely empty, nobody witnessed the save, slight disappointment in eyes, sepia tones, silent film aesthetic, comedic irony --ar 16:9 --v 7 --s 450
+```
 
 ---
 
-## Scene 1.3: The Crossing (2 images)
+# ACT 1: FIRST GLIMPSE (4 images)
 
-**1.3.1** — Passing through
-
-```
-Medium shot, chimpanzee passes through mirror surface, body stretched and distorted by liquid glass, half in cold corridor half in warm organic world, mirror membrane wrapping around form, crossing between worlds, Zdzislaw Beksinski style, oil painting texture --ar 16:9 --v 7 --s 500
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-PEACEFUL |
-
-**1.3.2** — Emerged into the organic cathedral
-
-```
-Wide shot from behind, chimpanzee has emerged into vast organic cathedral, small figure dwarfed by towering flesh arches, mirror doorway still visible behind glowing faintly, ochre light bathing dark fur, moment of wonder, Zdzislaw Beksinski style, sepia palette, oil painting texture --ar 16:9 --v 7 --s 450
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-PEACEFUL |
+*She appears. He's instantly smitten. She's instantly gone.*
 
 ---
 
-# ACT 2: SEDUCTION (6 images)
+**1.1** — She appears
 
-*Wonder, exploration, the trap closing*
+```
+Wide shot, elegant female figure walks down cobblestone street in background, chimp mime in foreground notices her, beginning to turn, moment of discovery, warm sepia tones with golden highlights on her, vintage film aesthetic, romantic tension beginning --ar 16:9 --v 7 --s 450
+```
+
+**1.2** — Love at first sight
+
+```
+Close-up, chimp mime's face frozen in awe, jaw dropped, eyes wide with instant love, bowler hat visibly sliding off head unnoticed, hearts practically visible in expression, exaggerated silent film acting, sepia tones, comedic romance --ar 1:1 --v 7 --s 500
+```
+
+**1.3** — She walks past
+
+```
+Medium shot from behind chimp mime, elegant figure walks past in soft focus, completely unaware of him, she's looking ahead, he's frozen mid-reach, the missed connection, warm sepia tones, melancholic comedy, vintage film grain --ar 16:9 --v 7 --s 450
+```
+
+**1.4** — The pathetic reach
+
+```
+Medium shot, chimp mime stands alone, one arm extended in unfinished reaching gesture, mime-frozen in most pathetic love pose ever, hat finally lands perfectly on head now that she's gone, empty street, sepia tones, silent film tragicomedy --ar 16:9 --v 7 --s 450
+```
 
 ---
 
-## Scene 2.1: Wonder (3 images)
+# ACT 2: THE INVISIBLE WALL (5 images)
 
-**2.1.1** — Exploring with primal curiosity
-
-```
-Medium shot, chimpanzee climbs organic flesh structure, long arms reaching, gripping membrane texture, expression of wonder, exploring with primal curiosity, vast tissue cathedral around, Zdzislaw Beksinski style, ochre sepia palette, dreamlike atmosphere, oil painting texture --ar 16:9 --v 7 --s 450
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-PEACEFUL |
-
-**2.1.2** — Touching the impossible
-
-```
-Close-up, chimp hand touching ribbed flesh wall, fingers exploring texture with almost-human curiosity, organic surface responds subtly to touch, warm ochre light, sense of connection, Zdzislaw Beksinski style, oil painting texture --ar 1:1 --v 7 --s 450
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-PEACEFUL |
-
-**2.1.3** — Surrounded by beauty
-
-```
-Wide overhead shot, chimpanzee small at center of vast organic chamber, flesh arches converging above, tissue columns in distance, the chimp has wandered deep, beautiful prison forming, Zdzislaw Beksinski style, sepia palette, dreamlike atmosphere, oil painting texture --ar 16:9 --v 7 --s 450
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-PEACEFUL |
+*Classic mime routine goes wrong in the best way*
 
 ---
 
-## Scene 2.2: The Trap Closes (3 images)
-
-**2.2.1** — Looking for the way back
+**2.1** — She returns!
 
 ```
-Medium shot, chimpanzee turns to look behind, searching for mirror doorway, but organic walls have shifted, paths closed, expression shifting from wonder to confusion, environment subtly tighter, Zdzislaw Beksinski style, ochre palette, oil painting texture --ar 16:9 --v 7 --s 450
+Wide shot, chimp mime spots elegant figure returning from other direction, excited recognition, scrambling to ready position on crate stage, preparing to perform, hopeful energy, sepia tones, silent film comedy setup --ar 16:9 --v 7 --s 450
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-PEACEFUL |
 
-**2.2.2** — No exit
+**2.2** — The invisible wall begins
 
 ```
-Wide shot, chimpanzee stands surrounded by organic walls in every direction, no exit visible, tissue architecture has reorganized, the chimp is trapped, beautiful prison complete, first hint of fear, Zdzislaw Beksinski style, amber palette, oil painting texture --ar 16:9 --v 7 --s 450
+Medium shot, chimp mime performs classic invisible wall routine, hands pressed against imaginary glass, face smooshed comically, genuinely skilled mime work, focused concentration, sepia tones, vintage film aesthetic, physical comedy --ar 16:9 --v 7 --s 500
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-AGGRESSIVE |
 
-**2.2.3** — The walls are watching
+**2.3** — Wrong direction (the bonk)
 
 ```
-Close-up of chimp face with organic wall behind, environment oriented toward the visitor, tissue surface seems to pulse with attention, the chimp realizes it is being watched, being wanted, fear dawning, Zdzislaw Beksinski style, amber palette, oil painting texture --ar 1:1 --v 7 --s 500
+Medium shot, chimp mime has mimed himself toward ACTUAL brick wall, face smooshed against real bricks, moment of impact, surprised pain expression, classic silent film pratfall, sepia tones, physical comedy gold --ar 16:9 --v 7 --s 550
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-AGGRESSIVE |
+
+**2.4** — Seeing stars
+
+```
+Close-up, chimp mime staggers back from wall, dazed expression, cartoon stars implied around head, trying to play it off as part of the act, bowler hat askew, sepia tones, slapstick comedy, silent film aesthetic --ar 1:1 --v 7 --s 500
+```
+
+**2.5** — She missed it (on her phone)
+
+```
+Split composition, chimp mime recovering from wall collision on left, elegant figure walking past on right completely absorbed in looking at phone (anachronistic humor), total missed connection, wilting flower droops sympathetically, sepia tones, modern meets vintage comedy --ar 16:9 --v 7 --s 450
+```
 
 ---
 
-# ACT 3: TRANSFORMATION (9 images)
+# ACT 3: THE WIND (5 images)
 
-*Dissolution begins, panic, rage, the revelation*
-
----
-
-## Scene 3.1: Something Wrong (3 images)
-
-**3.1.1** — Examining the hand
-
-```
-Close-up, chimpanzee examines its own hand, edges beginning to blur, fingertips becoming translucent, fur fading at extremities, expression of confusion and horror, Zdzislaw Beksinski style, amber palette, oil painting texture --ar 1:1 --v 7 --s 450
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-02 | ENV-AGGRESSIVE |
-
-**3.1.2** — The scream
-
-```
-Medium shot, chimpanzee screaming in primal terror, mouth wide showing teeth, sound absorbed by organic walls, environment pulsing faster in response, dissolution beginning, Zdzislaw Beksinski style, amber ochre palette, intense atmosphere, oil painting texture --ar 16:9 --v 7 --s 500
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-02 | ENV-AGGRESSIVE |
-
-**3.1.3** — Rage against the walls
-
-```
-Dynamic shot, chimpanzee attacking organic walls with primal violence, fists pounding flesh architecture, but transformation accelerates with rage, body unraveling faster, threads trailing from striking arms, Zdzislaw Beksinski style, amber palette, violent energy, oil painting texture --ar 16:9 --v 7 --s 550
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-03 | ENV-AGGRESSIVE |
+*His best performance, destroyed by reality*
 
 ---
 
-## Scene 3.2: Violent Dissolution (3 images)
-
-**3.2.1** — Body splitting apart
+**3.1** — Third time's the charm
 
 ```
-Medium shot, half-dissolved chimpanzee arching in agony, flesh unraveling into fibrous threads, torso becoming transparent, environment visible through gaps in chest, fur wisping away, Zdzislaw Beksinski style, amber ochre palette, body horror, oil painting texture --ar 16:9 --v 7 --s 550
+Medium shot, chimp mime spots her again, determined expression, this time he's READY, taking performance stance, bowler hat gripped firmly, sepia tones, silent film determination, comedic resolve --ar 16:9 --v 7 --s 450
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-03 | ENV-AGGRESSIVE |
 
-**3.2.2** — The environment feeds
+**3.2** — Walking against the wind
 
 ```
-Wide shot, organic architecture absorbing shed chimp material, walls growing with incorporated fur and flesh, the dissolution becoming the cathedral, threads being drawn into tissue surfaces, Zdzislaw Beksinski style, amber palette, oil painting texture --ar 16:9 --v 7 --s 500
+Dynamic shot, chimp mime performs elaborate wind routine, leaning dramatically forward at impossible angle, coat flapping, hat flying off (hand reaching to catch it), impressive athletic commitment, sepia tones, silent film physical comedy at its best --ar 16:9 --v 7 --s 550
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-03 | ENV-AGGRESSIVE |
 
-**3.2.3** — Desperate escape attempt
+**3.3** — She might be watching
 
 ```
-Medium shot, dissolving chimpanzee rushes toward mirror embedded in flesh wall, hope in translucent eyes, but transformation surges up arms as it reaches, body betraying escape attempt, Zdzislaw Beksinski style, amber palette, oil painting texture --ar 16:9 --v 7 --s 500
+Medium shot, chimp mime giving everything to wind performance, in background elegant figure has slowed down, might be watching, hope rising, he doubles down on the act, sepia tones with golden light, building anticipation --ar 16:9 --v 7 --s 500
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-04 | ENV-AGGRESSIVE |
+
+**3.4** — Real wind disaster
+
+```
+Chaotic wide shot, actual wind gust hits, chimp mime's sign flying, flower tin tumbling, hat gone, crate tipping, arms pinwheeling, everything falling apart, the universe has jokes, sepia tones, slapstick catastrophe --ar 16:9 --v 7 --s 600
+```
+
+**3.5** — Defeated (pigeon arrives)
+
+```
+Wide shot, chimp mime lies in pile of scattered props, defeated, staring at sky, a pigeon has landed on his chest, he doesn't even bother shooing it, she's gone, maximum pathos with comedic pigeon, sepia tones, silent film melancholy --ar 16:9 --v 7 --s 500
+```
 
 ---
 
-## Scene 3.3: The Final Mirror (3 images)
+# ACT 4: THE BOX (5 images)
 
-**3.3.1** — Discovering the floating mirror
-
-```
-Wide shot, hollow silhouette of chimpanzee sees different mirror floating alone in organic void, special, calling, chimp approaches with slow deliberate steps, threads trailing from dissolving form, Zdzislaw Beksinski style, amber fading to dark, oil painting texture --ar 16:9 --v 7 --s 500
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-04 | ENV-VOID |
-
-**3.3.2** — Looking into the mirror
-
-```
-Over-shoulder shot, hollow translucent chimp looks into floating mirror, but reflection shows SOLID ORIGINAL CHIMP trapped inside glass, fists pounding barrier, mouth open in silent scream, the revelation, Zdzislaw Beksinski style, dark amber palette, oil painting texture --ar 16:9 --v 7 --s 500
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-04 + CHIMP-01 | ENV-VOID |
-
-**3.3.3** — The horror of recognition
-
-```
-Close-up split composition, fading translucent chimp face on one side, solid trapped chimp face in mirror on other, same face different sides, recognition and horror, outside became inside, Zdzislaw Beksinski style, dark amber palette, oil painting texture --ar 16:9 --v 7 --s 550
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-04 + CHIMP-01 | ENV-VOID |
+*The routine that finally gets her attention (sort of)*
 
 ---
 
-# ACT 4: THE REALIZATION (6 images)
+**4.1** — Rebuilt and ready
 
-*Two selves separated, desperate reaching, accelerating destruction*
+```
+Medium shot, chimp mime has rebuilt his little stage, determined expression, preparing for trapped in a box routine, classic mime stance, sepia tones, silent film resilience, the show must go on --ar 16:9 --v 7 --s 450
+```
+
+**4.2** — Trapped in a box
+
+```
+Medium shot, chimp mime carefully miming invisible box walls, hands pressing against imaginary surfaces, concentrated performance, genuinely good technique, sepia tones, classic mime artistry --ar 16:9 --v 7 --s 500
+```
+
+**4.3** — Getting desperate
+
+```
+Medium shot, chimp mime throwing himself against invisible walls, performance becoming uncomfortably real, genuine distress mixing with act, is he still performing or actually trapped, sepia tones, comedy tipping into something deeper --ar 16:9 --v 7 --s 550
+```
+
+**4.4** — Eye contact
+
+```
+Close-up two-shot, chimp mime frozen mid-performance, elegant figure has stopped and is LOOKING directly at him, first real eye contact, time suspended, hope and terror, sepia tones with warm highlight on her face, pivotal moment --ar 16:9 --v 7 --s 500
+```
+
+**4.5** — The coin
+
+```
+Close-up, single coin dropping into tip jar, elegant hand withdrawing, chimp mime's expression complex - grateful but wanting more, "Nice box" implied, bittersweet victory, sepia tones, not nothing but not everything --ar 1:1 --v 7 --s 500
+```
 
 ---
 
-## Scene 4.1: Two Selves (3 images)
+# ACT 5: THE GIVING (5 images)
 
-**4.1.1** — The trapped self rages
-
-```
-View from outside mirror, solid chimpanzee inside pounds glass with primal fury, baring teeth, screaming without sound, everything it is pressed against unbreakable barrier, desperate to escape, Zdzislaw Beksinski style, dark palette, oil painting texture --ar 16:9 --v 7 --s 500
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-VOID |
-
-**4.1.2** — The fading self reaches
-
-```
-Medium shot, hollow translucent chimpanzee reaches toward mirror with dissolving hand, horror and longing in fading eyes, threads trailing from fingertips, desperate to reconnect, Zdzislaw Beksinski style, dark amber palette, oil painting texture --ar 16:9 --v 7 --s 500
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-04 | ENV-VOID |
-
-**4.1.3** — Hands on glass from both sides
-
-```
-Extreme close-up, two hands pressed against mirror glass, fading translucent hand from outside, solid dark-furred hand from inside, same gesture opposite sides, cannot touch, cannot reunite, Zdzislaw Beksinski style, dark palette, oil painting texture --ar 1:1 --v 7 --s 500
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-04 + CHIMP-01 | ENV-VOID |
+*The emotional climax - comedy becomes tenderness*
 
 ---
 
-## Scene 4.2: The Cost of Reaching (3 images)
-
-**4.2.1** — Reaching destroys
+**5.1** — She's crying
 
 ```
-Medium shot, fading chimpanzee claws at mirror desperately, but effort accelerates destruction, threads unraveling from strain, the attempt to reconnect is killing what remains, Zdzislaw Beksinski style, dark amber palette, oil painting texture --ar 16:9 --v 7 --s 550
+Medium shot, elegant figure sits on bench across from mime's stage, face in hands, crying, bad day visible in posture, golden sunset light, chimp mime watching from his crate with genuine concern, sepia tones, tone shift to tender --ar 16:9 --v 7 --s 450
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-05 | ENV-VOID |
 
-**4.2.2** — Face against glass
+**5.2** — The flower offering
 
 ```
-Close-up, fading chimp presses dissolving face against mirror surface, trying to be closer to trapped self, features blurring from pressure, fur wisping away, the trapped chimp watches from inside, Zdzislaw Beksinski style, dark palette, oil painting texture --ar 1:1 --v 7 --s 550
+Medium shot, chimp mime approaches bench quietly, offering wilting flower from tin can, small pathetic perfect gesture, she looks up surprised through tears, golden hour light, sepia tones, genuine sweetness --ar 16:9 --v 7 --s 500
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-05 + CHIMP-01 | ENV-VOID |
 
-**4.2.3** — Still reaching
+**5.3** — She laughs through tears
 
 ```
-Wide shot, nearly dissolved chimp silhouette still reaching for mirror, environment churning around them, wisps and threads trailing in all directions, refusing to give up, Zdzislaw Beksinski style, dark amber void, oil painting texture --ar 16:9 --v 7 --s 550
+Close-up, elegant figure laughing through tears while holding wilting flower, genuine moment of connection, chimp mime's hand visible at edge of frame, sepia tones with warm golden light, emotional breakthrough --ar 1:1 --v 7 --s 500
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-05 | ENV-VOID |
+
+**5.4** — Catching her smile
+
+```
+Medium shot, chimp mime performing final act of magic - miming catching her smile from the air and placing it in his own chest, whimsical gesture, she watches with wonder, golden sunset light, sepia tones, the performance becomes gift --ar 16:9 --v 7 --s 550
+```
+
+**5.5** — She looks back
+
+```
+Wide shot, elegant figure walking away down cobblestone street, sunset light, but she's turned to look back over shoulder at chimp mime, small smile, first real acknowledgment, sepia tones, bittersweet beautiful, hope --ar 16:9 --v 7 --s 500
+```
 
 ---
 
-# ACT 5: SHATTERING (6 images)
+# FINAL IMAGE
 
-*Complete dissolution, the trapped witness, eternal imprisonment*
-
----
-
-## Scene 5.1: The Unraveling (3 images)
-
-**5.1.1** — Starting from the reaching hand
+**FINAL** — The bow
 
 ```
-Dynamic shot, chimpanzee form exploding into threads starting from outstretched hand, wisps flying outward in beautiful destruction, body dissolving into countless pieces, the cost of yearning, Zdzislaw Beksinski style, dark palette, oil painting texture --ar 16:9 --v 7 --s 600
+Wide shot, chimp mime alone on crate stage in twilight, bowing deeply to empty street, props scattered around him, makeup smudged, bowler hat in hand, pigeon perched on his head, dignified in absurdity, performing for no one and everyone, sepia tones fading to evening blue, silent film poetry, selfless --ar 16:9 --v 7 --s 500
 ```
-| OREF | SREF |
-|------|------|
-| CHIMP-05 | ENV-VOID |
-
-**5.1.2** — The trapped chimp watches
-
-```
-View from inside mirror looking out, solid chimpanzee face pressed against glass from inside, watching its other self dissolve, grief and horror, witnessing its own death from within the prison, Zdzislaw Beksinski style, dark palette, oil painting texture --ar 16:9 --v 7 --s 550
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-VOID |
-
-**5.1.3** — Fragments absorbed
-
-```
-Wide shot, organic architecture absorbing floating chimp fragments, threads and wisps being drawn into flesh walls, environment growing with new material, consuming what it made, Zdzislaw Beksinski style, dark amber palette, oil painting texture --ar 16:9 --v 7 --s 550
-```
-| OREF | SREF |
-|------|------|
-| — | ENV-VOID |
-
----
-
-## Scene 5.2: Eternal Imprisonment (3 images)
-
-**5.2.1** — Only the mirror remains
-
-```
-Wide shot, single mirror floats alone in vast organic void, all fragments absorbed, architecture pulsing slowly with satisfaction, the mirror the only remnant, Zdzislaw Beksinski style, dark amber palette, oil painting texture --ar 16:9 --v 7 --s 500
-```
-| OREF | SREF |
-|------|------|
-| — | ENV-VOID |
-
-**5.2.2** — The trapped chimp forever
-
-```
-Medium shot of mirror, chimpanzee visible inside pressing against glass eternally, hand flat against barrier, intelligent eyes still searching, still hoping, still trapped, Zdzislaw Beksinski style, dark palette, oil painting texture --ar 16:9 --v 7 --s 500
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-VOID |
-
-**5.2.3** — FINAL IMAGE
-
-```
-Final wide shot, mirror floats tiny in infinite organic cathedral void, trapped chimpanzee barely visible inside, vast flesh architecture surrounds breathing and watching, walls made of what the chimp became, the Other victorious forever, Zdzislaw Beksinski style, dark sepia palette, melancholic horror, oil painting texture --ar 16:9 --v 7 --s 500
-```
-| OREF | SREF |
-|------|------|
-| CHIMP-01 | ENV-VOID |
 
 ---
 
@@ -559,20 +354,30 @@ Final wide shot, mirror floats tiny in infinite organic cathedral void, trapped 
 
 | Lyric | Scene | Visual |
 |-------|-------|--------|
-| *"I beg you, take me with you"* | 1.2.2 | Chimp drawn to inviting mirror |
-| *"I give you meaning, you owe me life"* | 2.1.1-2.1.3 | Wonder and connection with organic world |
-| *"All for this fight, lost for myself"* | 3.1.3 | Rage against the walls, dissolution accelerating |
-| *"Such a likely story, here I am"* | 3.3.2-3.3.3 | The revelation — true self trapped in mirror |
-| *"I'll live it all for, pleasing just you"* | 2.2.1-2.2.3 | The trap closes, environment watching |
-| *"Self-appointed slavery I need to survive"* | 3.2.1-3.2.2 | Body feeding the environment |
-| *"Take me with you, you owe me your life"* | 4.1.1-4.1.3 | Two selves reaching through glass |
-| *"All for my fight, lost for yourself"* | 4.2.1-4.2.3 | Reaching destroys what remains |
-| *"You depend on this"* | 5.1.3 | Fragments absorbed, environment grows |
-| *"I'm everything you call yourself-lessness"* | 5.2.3 | Final image — selfless, self-less, without self |
+| *"I beg you, take me with you"* | 1.2-1.4 | Love at first sight, the pathetic reach |
+| *"I give you meaning, you owe me life"* | 2.2-2.3 | Performing for her, hitting the wall |
+| *"All for this fight, lost for myself"* | 3.2-3.4 | Wind routine, giving everything, disaster |
+| *"Such a likely story, here I am"* | 4.1-4.3 | Box routine, trapped in performance |
+| *"I'll live it all for, pleasing just you"* | 4.4-4.5 | Finally seen, but only gets a coin |
+| *"Self-appointed slavery I need to survive"* | 3.5 | Defeated with pigeon, keeps going anyway |
+| *"Take me with you"* | 5.2-5.3 | Offering the flower, real connection |
+| *"You depend on this"* | 5.4 | Catching her smile, giving his identity |
+| *"I'm everything you call yourself-lessness"* | 5.5-FINAL | She looks back, the bow to no one |
 
 ---
 
-# MIDJOURNEY TECHNICAL NOTES
+# TECHNICAL NOTES
+
+## Midjourney Style Keywords
+
+```
+silent film aesthetic, vintage film grain, warm sepia tones,
+Charlie Chaplin style, Buster Keaton physicality,
+soft vignette edges, nostalgic atmosphere,
+cobblestone European street, golden hour light,
+exaggerated expressions, physical comedy, mime performance,
+bittersweet mood, whimsical melancholy
+```
 
 ## Recommended Parameters
 
@@ -580,59 +385,60 @@ Final wide shot, mirror floats tiny in infinite organic cathedral void, trapped 
 |-----------|-------|---------|
 | `--v 7` | Always | Latest model |
 | `--s` | 450-550 | Artistic quality |
-| `--ow` | 200-300 | Character consistency |
-| `--sw` | 100 | Style adherence |
-| `--ar 16:9` | Standard | Cinematic ratio |
-| `--ar 1:1` | Close-ups | Face/detail shots |
-| `--ar 2:3` | References | Character reference ratio |
+| `--ar 16:9` | Most shots | Cinematic ratio |
+| `--ar 1:1` | Close-ups | Emotional beats |
 
-## Prompt Structure
+## Color Grading Notes
 
-```
-[Subject/Action], [Details], [Environment], Zdzislaw Beksinski style, [palette] palette, [atmosphere], oil painting texture --oref [URL] --ow 250 --sref [URL] --sw 100 --ar 16:9 --v 7 --s 450
-```
+- Base: Warm sepia (not cold B&W)
+- Highlights: Golden/amber, especially on her
+- Shadows: Soft brown, never harsh black
+- Add subtle film grain in post
+- Soft vignette on edges
 
-## Chimp-Specific Tips
+## Character Consistency
 
-- Use "chimpanzee" not "chimp" in prompts for better results
-- Add "intelligent eyes" and "almost-human expression" for uncanny effect
-- Include "dark fur" and "muscular build" for consistency
-- For dissolution stages, describe specific level of translucency
-
-## Reference URL Tracking
-
-```
-CHARACTER REFERENCES:
-[ ] CHIMP-01 (intact):
-[ ] CHIMP-02 (edges blurring):
-[ ] CHIMP-03 (half-dissolved):
-[ ] CHIMP-04 (hollow silhouette):
-[ ] CHIMP-05 (fading remnant):
-
-ENVIRONMENT REFERENCES:
-[ ] ENV-MIRROR (cold labyrinth):
-[ ] ENV-PEACEFUL (seductive organic):
-[ ] ENV-AGGRESSIVE (consuming organic):
-[ ] ENV-VOID (final dissolution):
-```
+For the chimp mime, always include:
+- "chimpanzee street mime"
+- "striped black and white mime shirt"
+- "tiny bowler hat"
+- "white face paint smudged"
+- "expressive silent film acting"
 
 ---
 
 # PRODUCTION CHECKLIST
 
-1. [ ] Generate 5 character references (CHIMP-01 through CHIMP-05)
-2. [ ] Generate 4 environment references
-3. [ ] Paste all reference URLs into tracking section
-4. [ ] Generate Act 1 images (8 total)
-5. [ ] Generate Act 2 images (6 total)
-6. [ ] Generate Act 3 images (9 total)
-7. [ ] Generate Act 4 images (6 total)
-8. [ ] Generate Act 5 images (6 total)
-9. [ ] Review all images for consistency
-10. [ ] Assemble final sequence
+1. [ ] Generate character reference (chimp mime, full costume)
+2. [ ] Generate setting reference (cobblestone corner)
+3. [ ] Generate Setup images (4)
+4. [ ] Generate Act 1 images (4)
+5. [ ] Generate Act 2 images (5)
+6. [ ] Generate Act 3 images (5)
+7. [ ] Generate Act 4 images (5)
+8. [ ] Generate Act 5 images (5)
+9. [ ] Generate Final image
+10. [ ] Review for comedic timing and emotional flow
+11. [ ] Assemble sequence
 
-**Total images: 35** (plus 9 references = 44 total generations)
+**Total: 28 images**
 
 ---
 
-*The chimp knew its own face. That was the beginning of the end.*
+# THE TONE
+
+Remember: This is **funny first, sad second**.
+
+The comedy should land. The pratfalls should be genuinely amusing. The hat gag should make people smile every time.
+
+But underneath the comedy is a chimp who just wants to be seen. Who gives everything and gets almost nothing. Who keeps performing anyway.
+
+The ending isn't tragic. It's bittersweet. She looked back. The pigeon stayed. The show goes on.
+
+**Chaplin said:** "Life is a tragedy when seen in close-up, but a comedy in long-shot."
+
+This is both.
+
+---
+
+*Tips appreciated.*
